@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2014-06-10T22:32:56.828">
+<file name="src/main/java/org/apache/tika/cli/TikaCLI.java">
+<violation beginline="17" endline="962" begincolumn="0" endcolumn="0" rule="ExcessiveImports" ruleset="Coupling Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/coupling.html#ExcessiveImports" priority="3">
+A high number of imports can indicate a high degree of coupling within an object.
+</violation>
+<violation beginline="99" endline="962" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'TikaCLI' has a Cyclomatic Complexity of 4 (Highest = 59).
+</violation>
+<violation beginline="99" endline="962" begincolumn="0" endcolumn="0" rule="TooManyMethods" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#TooManyMethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="99" endline="962" begincolumn="0" endcolumn="0" rule="TooManyFields" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#TooManyFields" priority="3">
+Too many fields
+</violation>
+<violation beginline="100" endline="100" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="ProperLogger" ruleset="Jakarta Commons Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-jakarta-commons.html#ProperLogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#VariableNamingConventions" priority="1">
+Variables that are final and static should be in all caps.
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="104" endline="104" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cli' could be declared final
+</violation>
+<violation beginline="135" endline="135" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'input' is not assigned and could be declared final
+</violation>
+<violation beginline="135" endline="135" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'metadata' is not assigned and could be declared final
+</violation>
+<violation beginline="135" endline="135" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'output' is not assigned and could be declared final
+</violation>
+<violation beginline="136" endline="136" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="136" endline="136" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="137" endline="137" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like p
+</violation>
+<violation beginline="137" endline="139" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'p' (lines '137'-'139').
+</violation>
+<violation beginline="139" endline="139" begincolumn="0" endcolumn="0" rule="UseProperClassLoader" ruleset="J2EE Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#UseProperClassLoader" priority="3">
+In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+</violation>
+<violation beginline="141" endline="141" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'handler' could be declared final
+</violation>
+<violation beginline="147" endline="147" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'metHandler' could be declared final
+</violation>
+<violation beginline="155" endline="155" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="155" endline="155" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="155" endline="155" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'metadata' is not assigned and could be declared final
+</violation>
+<violation beginline="161" endline="161" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="164" endline="164" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="164" endline="164" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="169" endline="169" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="172" endline="172" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="172" endline="172" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="177" endline="177" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="185" endline="185" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="235" endline="243" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'writer' (lines '235'-'243').
+</violation>
+<violation beginline="235" endline="243" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'writer' (lines '235'-'243').
+</violation>
+<violation beginline="251" endline="252" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'writer' could be declared final
+</violation>
+<violation beginline="266" endline="266" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fos' could be declared final
+</violation>
+<violation beginline="275" endline="275" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'context' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="277" endline="277" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'detector' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="283" endline="283" begincolumn="0" endcolumn="0" rule="SingularField" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SingularField" priority="3">
+Perhaps 'ngp' could be replaced by a local variable.
+</violation>
+<violation beginline="317" endline="425" begincolumn="0" endcolumn="0" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="317" endline="425" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'process' has a Cyclomatic Complexity of 59.
+</violation>
+<violation beginline="317" endline="425" begincolumn="0" endcolumn="0" rule="NcssMethodCount" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NcssMethodCount" priority="3">
+The method process() has an NCSS line count of 128
+</violation>
+<violation beginline="318" endline="318" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="318" endline="318" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="321" endline="321" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="321" endline="321" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="324" endline="324" begincolumn="0" endcolumn="0" rule="PositionLiteralsFirstInComparisons" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="345" endline="347" begincolumn="0" endcolumn="0" rule="EmptyIfStmt" ruleset="Basic Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="498" endline="498" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="504" endline="504" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like o1
+</violation>
+<violation beginline="504" endline="504" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like o2
+</violation>
+<violation beginline="513" endline="513" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="515" endline="519" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="516" endline="516" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like o1
+</violation>
+<violation beginline="516" endline="516" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like o2
+</violation>
+<violation beginline="521" endline="521" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="536" endline="554" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NPathComplexity" priority="3">
+The method displayParser() has an NPath complexity of 300
+</violation>
+<violation beginline="541" endline="541" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="544" endline="544" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="598" endline="598" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="611" endline="627" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'parsers' (lines '611'-'627').
+</violation>
+<violation beginline="642" endline="650" begincolumn="0" endcolumn="0" rule="ConfusingTernary" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="643" endline="643" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="647" endline="647" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="683" endline="779" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'FileEmbeddedDocumentExtractor' has a Cyclomatic Complexity of 6 (Highest = 14).
+</violation>
+<violation beginline="693" endline="759" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'parseEmbedded' has a Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="693" endline="759" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NPathComplexity" priority="3">
+The method parseEmbedded() has an NPath complexity of 504
+</violation>
+<violation beginline="704" endline="704" begincolumn="0" endcolumn="0" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="707" endline="707" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="713" endline="713" begincolumn="0" endcolumn="0" rule="UseStringBufferForStringAppends" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#UseStringBufferForStringAppends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="719" endline="721" begincolumn="0" endcolumn="0" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="725" endline="728" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'os' (lines '725'-'728').
+</violation>
+<violation beginline="733" endline="733" begincolumn="0" endcolumn="0" rule="SimplifyConditional" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SimplifyConditional" priority="3">
+No need to check for null before an instanceof
+</violation>
+<violation beginline="770" endline="770" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="781" endline="781" begincolumn="0" endcolumn="0" rule="DoNotUseThreads" ruleset="J2EE Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotUseThreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="801" endline="801" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="806" endline="806" begincolumn="0" endcolumn="0" rule="DoNotUseThreads" ruleset="J2EE Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotUseThreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="806" endline="806" begincolumn="0" endcolumn="0" rule="DoNotUseThreads" ruleset="J2EE Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotUseThreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="820" endline="820" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="836" endline="836" begincolumn="0" endcolumn="0" rule="AvoidFieldNameMatchingMethodName" ruleset="Naming Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#AvoidFieldNameMatchingMethodName" priority="3">
+It is somewhat confusing to have a field name with the same name as a method
+</violation>
+<violation beginline="838" endline="842" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="876" endline="879" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="904" endline="904" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'formatter' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="905" endline="905" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'gson' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="917" endline="929" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'first' (lines '917'-'929').
+</violation>
+<violation beginline="919" endline="923" begincolumn="0" endcolumn="0" rule="ConfusingTernary" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="922" endline="929" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'first' (lines '922'-'929').
+</violation>
+<violation beginline="945" endline="945" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="src/main/java/org/apache/tika/gui/ParsingTransferHandler.java">
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="54" endline="55" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="58" endline="61" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'delegate' is not assigned and could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'tika' is not assigned and could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'component' is not assigned and could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'flavors' is not assigned and could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="74" endline="74" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'component' is not assigned and could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'data' could be declared final
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="116" endline="116" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'list' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like st
+</violation>
+<violation beginline="117" endline="117" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'st' could be declared final
+</violation>
+<violation beginline="120" endline="120" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like s
+</violation>
+<violation beginline="120" endline="120" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 's' could be declared final
+</violation>
+<violation beginline="121" endline="121" begincolumn="0" endcolumn="0" rule="SimplifyStartsWith" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#SimplifyStartsWith" priority="3">
+This call to String.startsWith can be rewritten using String.charAt(0)
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="126" endline="127" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.apache.tika.gui" class="ParsingTransferHandler" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="src/main/java/org/apache/tika/gui/TikaGUI.java">
+<violation beginline="17" endline="612" begincolumn="0" endcolumn="0" rule="ExcessiveImports" ruleset="Coupling Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/coupling.html#ExcessiveImports" priority="3">
+A high number of imports can indicate a high degree of coupling within an object.
+</violation>
+<violation beginline="89" endline="612" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'TikaGUI' has a Cyclomatic Complexity of 3 (Highest = 15).
+</violation>
+<violation beginline="90" endline="612" begincolumn="0" endcolumn="0" rule="TooManyMethods" ruleset="Code Size Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#TooManyMethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="105" endline="105" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="105" endline="105" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="105" endline="105" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="107" endline="107" begincolumn="0" endcolumn="0" rule="DoNotUseThreads" ruleset="J2EE Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotUseThreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="117" endline="117" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="122" endline="122" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="127" endline="127" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="132" endline="132" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="137" endline="137" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="169" endline="169" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parser' is not assigned and could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;metadata&quot; appears 4 times in this file; the first occurrence is on line 177
+</violation>
+<violation beginline="177" endline="177" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;text/plain&quot; appears 6 times in this file; the first occurrence is on line 177
+</violation>
+<violation beginline="178" endline="178" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;html&quot; appears 4 times in this file; the first occurrence is on line 178
+</violation>
+<violation beginline="191" endline="191" begincolumn="0" endcolumn="0" rule="AccessorClassGeneration" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#AccessorClassGeneration" priority="3">
+Avoid instantiation through private constructors from outside of the constructor's class.
+</violation>
+<violation beginline="197" endline="197" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'bar' could be declared final
+</violation>
+<violation beginline="199" endline="199" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="207" endline="207" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'view' could be declared final
+</violation>
+<violation beginline="217" endline="217" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'help' could be declared final
+</violation>
+<violation beginline="226" endline="226" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'command' is not assigned and could be declared final
+</violation>
+<violation beginline="226" endline="226" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'key' is not assigned and could be declared final
+</violation>
+<violation beginline="226" endline="226" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'menu' is not assigned and could be declared final
+</violation>
+<violation beginline="227" endline="227" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'item' could be declared final
+</violation>
+<violation beginline="233" endline="233" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="233" endline="272" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'actionPerformed' has a Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="236" endline="236" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like rv
+</violation>
+<violation beginline="241" endline="241" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like rv
+</violation>
+<violation beginline="283" endline="283" begincolumn="0" endcolumn="0" rule="AvoidCatchingThrowable" ruleset="Strict Exception Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/strictexception.html#AvoidCatchingThrowable" priority="3">
+A catch statement should never catch throwable since it includes errors.
+</violation>
+<violation beginline="297" endline="297" begincolumn="0" endcolumn="0" rule="AvoidCatchingThrowable" ruleset="Strict Exception Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/strictexception.html#AvoidCatchingThrowable" priority="3">
+A catch statement should never catch throwable since it includes errors.
+</violation>
+<violation beginline="302" endline="302" begincolumn="0" endcolumn="0" rule="AvoidReassigningParameters" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'input'
+</violation>
+<violation beginline="302" endline="302" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like md
+</violation>
+<violation beginline="302" endline="325" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'name' (lines '302'-'325').
+</violation>
+<violation beginline="303" endline="303" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="303" endline="303" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="346" endline="346" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like t
+</violation>
+<violation beginline="377" endline="377" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="404" endline="404" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="424" endline="425" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'name' (lines '424'-'425').
+</violation>
+<violation beginline="435" endline="435" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="466" endline="529" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'getHtmlHandler' has a Cyclomatic Complexity of 15.
+</violation>
+<violation beginline="476" endline="476" begincolumn="0" endcolumn="0" rule="AvoidReassigningParameters" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'uri'
+</violation>
+<violation beginline="479" endline="479" begincolumn="0" endcolumn="0" rule="NullAssignment" ruleset="Controversial Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#NullAssignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="500" endline="500" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="513" endline="513" begincolumn="0" endcolumn="0" rule="AvoidReassigningParameters" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'uri'
+</violation>
+<violation beginline="516" endline="516" begincolumn="0" endcolumn="0" rule="NullAssignment" ruleset="Controversial Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#NullAssignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="523" endline="524" begincolumn="0" endcolumn="0" rule="UncommentedEmptyMethod" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="526" endline="527" begincolumn="0" endcolumn="0" rule="UncommentedEmptyMethod" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="564" endline="564" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'wanted' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="565" endline="565" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'downstreamParser' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="566" endline="566" begincolumn="0" endcolumn="0" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'tmpDir'.
+</violation>
+<violation beginline="568" endline="575" begincolumn="0" endcolumn="0" rule="CallSuperInConstructor" ruleset="Controversial Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="574" endline="574" begincolumn="0" endcolumn="0" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.apache.tika.gui" class="TikaGUI" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="src/test/java/org/apache/tika/cli/TikaCLITest.java">
+<violation beginline="34" endline="252" begincolumn="0" endcolumn="0" rule="TooManyMethods" ruleset="Code Size Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#TooManyMethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'testDataURI' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="41" endline="41" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'resourcePrefix' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'params' could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="69" endline="69" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'params' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="81" endline="86" begincolumn="0" endcolumn="0" rule="JUnitTestsShouldIncludeAssert" ruleset="JUnit Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitTestsShouldIncludeAssert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="82" endline="82" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'params' could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'params' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;alice.cli.test&quot; appears 8 times in this file; the first occurrence is on line 95
+</violation>
+<violation beginline="97" endline="97" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="106" endline="106" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Type Resolution Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldn't explicitly throw java.lang.Exception
+</violation>
+<violation beginline="107" endline="107" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'params' could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="123" endline="123" begincolumn="0" endcolumn="0" rule="JUnitAssertionsShouldIncludeMessage" ruleset="JUnit Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/junit.html#JUnitAssertionsShouldIncludeMessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="190" endline="191" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="org.apache.tika.cli" class="TikaCLITest" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+</pmd>

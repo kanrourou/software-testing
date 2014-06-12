@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="1" timestamp="1402513512314" analysisTimestamp="1402513503862" release="">
+  <Project projectName="tika-core">
+    <Jar>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/target/test-classes</Jar>
+    <Jar>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/target/classes</Jar>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/osgi/org.osgi.core/4.0.0/org.osgi.core-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/osgi/org.osgi.compendium/4.0.0/org.osgi.compendium-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/biz/aQute/bndlib/1.43.0/bndlib-1.43.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/junit/junit/4.11/junit-4.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/src/test/resources</SrcDir>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/src/main/java</SrcDir>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/src/main/resources</SrcDir>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/src/test/java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.TestRereadableInputStream">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Class>
+    <Method classname="org.apache.tika.TestRereadableInputStream" name="createTestFile" signature="()Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" start="101" end="108" startBytecode="0" endBytecode="163" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.TestRereadableInputStream" start="103" end="103" startBytecode="17" endBytecode="17" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.TestRereadableInputStream" start="104" end="104" startBytecode="21" endBytecode="21" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.TestRereadableInputStream" start="105" end="105" startBytecode="26" endBytecode="26" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tika.TestRereadableInputStream">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Class>
+    <Field classname="org.apache.tika.TestRereadableInputStream" name="MEMORY_THRESHOLD" signature="I" isStatic="false">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.TestRereadableInputStream" start="35" end="35" startBytecode="11" endBytecode="11" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tika.TestRereadableInputStream">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Class>
+    <Field classname="org.apache.tika.TestRereadableInputStream" name="NUM_PASSES" signature="I" isStatic="false">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.TestRereadableInputStream" start="37" end="37" startBytecode="16" endBytecode="16" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tika.TestRereadableInputStream">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Class>
+    <Field classname="org.apache.tika.TestRereadableInputStream" name="TEST_SIZE" signature="I" isStatic="false">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.TestRereadableInputStream" start="33" end="33" startBytecode="6" endBytecode="6" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tika.TestRereadableInputStream$TestInputStream">
+      <SourceLine classname="org.apache.tika.TestRereadableInputStream$TestInputStream" start="138" end="148" sourcefile="TestRereadableInputStream.java" sourcepath="org/apache/tika/TestRereadableInputStream.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE" first="1">
+    <Class classname="org.apache.tika.Tika">
+      <SourceLine classname="org.apache.tika.Tika" sourcefile="Tika.java" sourcepath="org/apache/tika/Tika.java"/>
+    </Class>
+    <Method classname="org.apache.tika.Tika" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tika.Tika" start="541" end="561" startBytecode="0" endBytecode="271" sourcefile="Tika.java" sourcepath="org/apache/tika/Tika.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.Tika" start="555" end="555" startBytecode="53" endBytecode="53" sourcefile="Tika.java" sourcepath="org/apache/tika/Tika.java"/>
+    <SourceLine classname="org.apache.tika.Tika" start="555" end="555" startBytecode="53" endBytecode="53" sourcefile="Tika.java" sourcepath="org/apache/tika/Tika.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.config.ServiceLoader">
+      <SourceLine classname="org.apache.tika.config.ServiceLoader" sourcefile="ServiceLoader.java" sourcepath="org/apache/tika/config/ServiceLoader.java"/>
+    </Class>
+    <Method classname="org.apache.tika.config.ServiceLoader" name="collectServiceClassNames" signature="(Ljava/net/URL;Ljava/util/Collection;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.config.ServiceLoader" start="311" end="327" startBytecode="0" endBytecode="48" sourcefile="ServiceLoader.java" sourcepath="org/apache/tika/config/ServiceLoader.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.config.ServiceLoader" start="314" end="314" startBytecode="5" endBytecode="5" sourcefile="ServiceLoader.java" sourcepath="org/apache/tika/config/ServiceLoader.java"/>
+    <SourceLine classname="org.apache.tika.config.ServiceLoader" start="314" end="314" startBytecode="5" endBytecode="5" sourcefile="ServiceLoader.java" sourcepath="org/apache/tika/config/ServiceLoader.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_COMPARETO_USE_OBJECT_EQUALS" priority="2" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.config.ServiceLoader$RankedService">
+      <SourceLine classname="org.apache.tika.config.ServiceLoader$RankedService" sourcefile="ServiceLoader.java" sourcepath="org/apache/tika/config/ServiceLoader.java"/>
+    </Class>
+    <Method classname="org.apache.tika.config.ServiceLoader$RankedService" name="compareTo" signature="(Lorg/apache/tika/config/ServiceLoader$RankedService;)I" isStatic="false">
+      <SourceLine classname="org.apache.tika.config.ServiceLoader$RankedService" start="60" end="60" startBytecode="0" endBytecode="61" sourcefile="ServiceLoader.java" sourcepath="org/apache/tika/config/ServiceLoader.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DMI_INVOKING_TOSTRING_ON_ARRAY" priority="1" abbrev="USELESS_STRING" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tika.detect.MagicDetector">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Class>
+    <Method classname="org.apache.tika.detect.MagicDetector" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" start="449" end="449" startBytecode="0" endBytecode="118" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Method>
+    <Field classname="org.apache.tika.detect.MagicDetector" name="mask" signature="[B" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="452" end="452" startBytecode="54" endBytecode="54" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="452" end="452" startBytecode="54" endBytecode="54" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_INVOKING_TOSTRING_ON_ARRAY" priority="1" abbrev="USELESS_STRING" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tika.detect.MagicDetector">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Class>
+    <Method classname="org.apache.tika.detect.MagicDetector" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" start="449" end="449" startBytecode="0" endBytecode="118" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Method>
+    <Field classname="org.apache.tika.detect.MagicDetector" name="pattern" signature="[B" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="451" end="451" startBytecode="41" endBytecode="41" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="451" end="451" startBytecode="41" endBytecode="41" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.detect.MagicDetector">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Class>
+    <Method classname="org.apache.tika.detect.MagicDetector" name="decodeValue" signature="(Ljava/lang/String;Ljava/lang/String;)[B" isStatic="true">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" start="75" end="122" startBytecode="0" endBytecode="710" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="100" end="100" startBytecode="122" endBytecode="122" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="100" end="100" startBytecode="122" endBytecode="122" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.detect.MagicDetector">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Class>
+    <Method classname="org.apache.tika.detect.MagicDetector" name="detect" signature="(Ljava/io/InputStream;Lorg/apache/tika/metadata/Metadata;)Lorg/apache/tika/mime/MediaType;" isStatic="false">
+      <SourceLine classname="org.apache.tika.detect.MagicDetector" start="353" end="435" startBytecode="0" endBytecode="1237" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="396" end="396" startBytecode="210" endBytecode="210" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+    <SourceLine classname="org.apache.tika.detect.MagicDetector" start="396" end="396" startBytecode="210" endBytecode="210" sourcefile="MagicDetector.java" sourcepath="org/apache/tika/detect/MagicDetector.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tika.detect.MagicDetectorTest$RestrictiveInputStream">
+      <SourceLine classname="org.apache.tika.detect.MagicDetectorTest$RestrictiveInputStream" start="243" end="255" sourcefile="MagicDetectorTest.java" sourcepath="org/apache/tika/detect/MagicDetectorTest.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.detect.XmlRootExtractor">
+      <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+    </Class>
+    <Method classname="org.apache.tika.detect.XmlRootExtractor" name="extractRootElement" signature="(Ljava/io/InputStream;)Ljavax/xml/namespace/QName;" isStatic="false">
+      <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" start="48" end="59" startBytecode="0" endBytecode="209" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception" sourcefile="Exception.java" sourcepath="java/lang/Exception.java"/>
+    </Class>
+    <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" start="57" end="57" startBytecode="56" endBytecode="56" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+    <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" start="57" end="57" startBytecode="56" endBytecode="56" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+    <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" start="57" end="57" startBytecode="56" endBytecode="56" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE" first="1">
+    <Class classname="org.apache.tika.detect.XmlRootExtractor">
+      <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+    </Class>
+    <Method classname="org.apache.tika.detect.XmlRootExtractor" name="extractRootElement" signature="(Ljava/io/InputStream;)Ljavax/xml/namespace/QName;" isStatic="false">
+      <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" start="48" end="59" startBytecode="0" endBytecode="209" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" start="57" end="57" startBytecode="56" endBytecode="56" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+    <SourceLine classname="org.apache.tika.detect.XmlRootExtractor" start="57" end="57" startBytecode="56" endBytecode="56" sourcefile="XmlRootExtractor.java" sourcepath="org/apache/tika/detect/XmlRootExtractor.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tika.embedder.ExternalEmbedder">
+      <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    </Class>
+    <Method classname="org.apache.tika.embedder.ExternalEmbedder" name="getCommand" signature="()[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" start="114" end="114" startBytecode="0" endBytecode="46" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    </Method>
+    <Field classname="org.apache.tika.embedder.ExternalEmbedder" name="command" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" start="114" end="114" startBytecode="4" endBytecode="4" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" start="114" end="114" startBytecode="4" endBytecode="4" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.embedder.ExternalEmbedder">
+      <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    </Class>
+    <Field classname="org.apache.tika.embedder.ExternalEmbedder" name="metadataCommandArguments" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" start="72" end="72" startBytecode="0" endBytecode="0" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    </Field>
+    <Type descriptor="Lorg/apache/tika/metadata/Property;" role="TYPE_FOUND">
+      <SourceLine classname="org.apache.tika.metadata.Property" start="1" end="354" sourcefile="Property.java" sourcepath="org/apache/tika/metadata/Property.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.embedder.ExternalEmbedder">
+      <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    </Class>
+    <Field classname="org.apache.tika.embedder.ExternalEmbedder" name="tmp" signature="Lorg/apache/tika/io/TemporaryResources;" isStatic="false">
+      <SourceLine classname="org.apache.tika.embedder.ExternalEmbedder" start="91" end="91" startBytecode="0" endBytecode="0" sourcefile="ExternalEmbedder.java" sourcepath="org/apache/tika/embedder/ExternalEmbedder.java"/>
+    </Field>
+    <Type descriptor="Lorg/apache/tika/io/TemporaryResources;" role="TYPE_FOUND">
+      <SourceLine classname="org.apache.tika.io.TemporaryResources" start="35" end="154" sourcefile="TemporaryResources.java" sourcepath="org/apache/tika/io/TemporaryResources.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.fork.ForkClient">
+      <SourceLine classname="org.apache.tika.fork.ForkClient" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+    </Class>
+    <Method classname="org.apache.tika.fork.ForkClient" name="close" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.fork.ForkClient" start="164" end="181" startBytecode="0" endBytecode="186" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.fork.ForkClient" start="179" end="179" startBytecode="71" endBytecode="71" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+    <SourceLine classname="org.apache.tika.fork.ForkClient" start="179" end="179" startBytecode="71" endBytecode="71" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.fork.ForkClient">
+      <SourceLine classname="org.apache.tika.fork.ForkClient" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+    </Class>
+    <Method classname="org.apache.tika.fork.ForkClient" name="createBootstrapJar" signature="()Ljava/io/File;" isStatic="true">
+      <SourceLine classname="org.apache.tika.fork.ForkClient" start="239" end="249" startBytecode="0" endBytecode="175" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.fork.ForkClient" start="246" end="246" startBytecode="27" endBytecode="27" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+    <SourceLine classname="org.apache.tika.fork.ForkClient" start="246" end="246" startBytecode="27" endBytecode="27" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.fork.ForkParser">
+      <SourceLine classname="org.apache.tika.fork.ForkParser" sourcefile="ForkParser.java" sourcepath="org/apache/tika/fork/ForkParser.java"/>
+    </Class>
+    <Field classname="org.apache.tika.fork.ForkParser" name="pool" signature="Ljava/util/Queue;" isStatic="false">
+      <SourceLine classname="org.apache.tika.fork.ForkParser" start="53" end="53" startBytecode="0" endBytecode="0" sourcefile="ForkParser.java" sourcepath="org/apache/tika/fork/ForkParser.java"/>
+    </Field>
+    <Type descriptor="Lorg/apache/tika/fork/ForkClient;" role="TYPE_FOUND">
+      <SourceLine classname="org.apache.tika.fork.ForkClient" start="40" end="290" sourcefile="ForkClient.java" sourcepath="org/apache/tika/fork/ForkClient.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.fork.ForkServer">
+      <SourceLine classname="org.apache.tika.fork.ForkServer" sourcefile="ForkServer.java" sourcepath="org/apache/tika/fork/ForkServer.java"/>
+    </Class>
+    <Method classname="org.apache.tika.fork.ForkServer" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.fork.ForkServer" start="98" end="105" startBytecode="0" endBytecode="118" sourcefile="ForkServer.java" sourcepath="org/apache/tika/fork/ForkServer.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.fork.ForkServer" start="102" end="102" startBytecode="22" endBytecode="22" sourcefile="ForkServer.java" sourcepath="org/apache/tika/fork/ForkServer.java"/>
+    <SourceLine classname="org.apache.tika.fork.ForkServer" start="102" end="102" startBytecode="22" endBytecode="22" sourcefile="ForkServer.java" sourcepath="org/apache/tika/fork/ForkServer.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tika.io.FilenameUtils">
+      <SourceLine classname="org.apache.tika.io.FilenameUtils" sourcefile="FilenameUtils.java" sourcepath="org/apache/tika/io/FilenameUtils.java"/>
+    </Class>
+    <Field classname="org.apache.tika.io.FilenameUtils" name="RESERVED_FILENAME_CHARACTERS" signature="[C" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.FilenameUtils" sourcefile="FilenameUtils.java" sourcepath="org/apache/tika/io/FilenameUtils.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.io.FilenameUtils" start="27" end="27" startBytecode="216" endBytecode="216" sourcefile="FilenameUtils.java" sourcepath="org/apache/tika/io/FilenameUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="copy" signature="(Ljava/io/InputStream;Ljava/io/Writer;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="957" end="959" startBytecode="0" endBytecode="85" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="957" end="957" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="957" end="957" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="copy" signature="(Ljava/io/Reader;Ljava/io/OutputStream;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="1064" end="1069" startBytecode="0" endBytecode="93" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.io.OutputStreamWriter" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.OutputStreamWriter" start="109" end="115" startBytecode="0" endBytecode="108" sourcefile="OutputStreamWriter.java" sourcepath="java/io/OutputStreamWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="1064" end="1064" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="1064" end="1064" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="readLines" signature="(Ljava/io/InputStream;)Ljava/util/List;" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="438" end="439" startBytecode="0" endBytecode="69" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="438" end="438" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="438" end="438" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="toByteArray" signature="(Ljava/lang/String;)[B" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="257" end="257" startBytecode="0" endBytecode="46" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="257" end="257" startBytecode="1" endBytecode="1" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="257" end="257" startBytecode="1" endBytecode="1" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="toInputStream" signature="(Ljava/lang/String;)Ljava/io/InputStream;" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="532" end="533" startBytecode="0" endBytecode="69" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="532" end="532" startBytecode="1" endBytecode="1" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="532" end="532" startBytecode="1" endBytecode="1" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="toInputStream" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="550" end="551" startBytecode="0" endBytecode="104" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="550" end="550" startBytecode="13" endBytecode="13" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="550" end="550" startBytecode="13" endBytecode="13" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="toString" signature="([B)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="395" end="395" startBytecode="0" endBytecode="50" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="395" end="395" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="395" end="395" startBytecode="5" endBytecode="5" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="toString" signature="([BLjava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="415" end="418" startBytecode="0" endBytecode="91" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="416" end="416" startBytecode="9" endBytecode="9" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="416" end="416" startBytecode="9" endBytecode="9" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="write" signature="(Ljava/lang/String;Ljava/io/OutputStream;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="781" end="784" startBytecode="0" endBytecode="81" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="782" end="782" startBytecode="6" endBytecode="6" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="782" end="782" startBytecode="6" endBytecode="6" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="write" signature="(Ljava/lang/StringBuffer;Ljava/io/OutputStream;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="850" end="853" startBytecode="0" endBytecode="84" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="851" end="851" startBytecode="9" endBytecode="9" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="851" end="851" startBytecode="9" endBytecode="9" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="write" signature="([BLjava/io/Writer;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="587" end="590" startBytecode="0" endBytecode="85" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="588" end="588" startBytecode="10" endBytecode="10" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="588" end="588" startBytecode="10" endBytecode="10" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.IOUtils">
+      <SourceLine classname="org.apache.tika.io.IOUtils" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.IOUtils" name="write" signature="([CLjava/io/OutputStream;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.IOUtils" start="655" end="658" startBytecode="0" endBytecode="88" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="656" end="656" startBytecode="13" endBytecode="13" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+    <SourceLine classname="org.apache.tika.io.IOUtils" start="656" end="656" startBytecode="13" endBytecode="13" sourcefile="IOUtils.java" sourcepath="org/apache/tika/io/IOUtils.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.io.LookaheadInputStreamTest">
+      <SourceLine classname="org.apache.tika.io.LookaheadInputStreamTest" sourcefile="LookaheadInputStreamTest.java" sourcepath="org/apache/tika/io/LookaheadInputStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.LookaheadInputStreamTest" name="testNullStream" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.LookaheadInputStreamTest" start="34" end="36" startBytecode="0" endBytecode="11" sourcefile="LookaheadInputStreamTest.java" sourcepath="org/apache/tika/io/LookaheadInputStreamTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="363" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.io.LookaheadInputStreamTest" start="34" end="34" startBytecode="0" endBytecode="0" sourcefile="LookaheadInputStreamTest.java" sourcepath="org/apache/tika/io/LookaheadInputStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.LookaheadInputStreamTest" start="34" end="34" startBytecode="0" endBytecode="0" sourcefile="LookaheadInputStreamTest.java" sourcepath="org/apache/tika/io/LookaheadInputStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="generateStream" signature="(II)Ljava/io/InputStream;" isStatic="true">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="71" end="71" startBytecode="0" endBytecode="67" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="71" end="71" startBytecode="9" endBytecode="9" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="71" end="71" startBytecode="9" endBytecode="9" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testReadWithMarkAndReset" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="157" end="168" startBytecode="0" endBytecode="195" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="167" end="167" startBytecode="69" endBytecode="69" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="167" end="167" startBytecode="69" endBytecode="69" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testResetWithoutMark" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="176" end="185" startBytecode="0" endBytecode="191" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="183" end="183" startBytecode="59" endBytecode="59" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="183" end="183" startBytecode="59" endBytecode="59" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testSkip" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="193" end="202" startBytecode="0" endBytecode="200" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="200" end="200" startBytecode="67" endBytecode="67" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="200" end="200" startBytecode="67" endBytecode="67" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testSkipEOS" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="210" end="216" startBytecode="0" endBytecode="154" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="214" end="214" startBytecode="54" endBytecode="54" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="214" end="214" startBytecode="54" endBytecode="54" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testTailChunkReads" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="135" end="149" startBytecode="0" endBytecode="293" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="147" end="147" startBytecode="95" endBytecode="95" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="147" end="147" startBytecode="95" endBytecode="95" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testTailSingleByteReads" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="122" end="127" startBytecode="0" endBytecode="138" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="556" end="557" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="126" end="126" startBytecode="46" endBytecode="46" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="126" end="126" startBytecode="46" endBytecode="46" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="RR_NOT_CHECKED" priority="2" abbrev="RR" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testReadWithMarkAndReset" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="157" end="168" startBytecode="0" endBytecode="195" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="org.apache.tika.io.TailStream" name="read" signature="([B)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="org.apache.tika.io.TailStream" start="101" end="106" startBytecode="0" endBytecode="104" sourcefile="TailStream.java" sourcepath="org/apache/tika/io/TailStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="161" end="161" startBytecode="27" endBytecode="27" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="161" end="161" startBytecode="27" endBytecode="27" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="RR_NOT_CHECKED" priority="2" abbrev="RR" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.io.TailStreamTest">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TailStreamTest" name="testResetWithoutMark" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TailStreamTest" start="176" end="185" startBytecode="0" endBytecode="191" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    </Method>
+    <Method classname="org.apache.tika.io.TailStream" name="read" signature="([B)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="org.apache.tika.io.TailStream" start="101" end="106" startBytecode="0" endBytecode="104" sourcefile="TailStream.java" sourcepath="org/apache/tika/io/TailStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="181" end="181" startBytecode="38" endBytecode="38" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TailStreamTest" start="181" end="181" startBytecode="38" endBytecode="38" sourcefile="TailStreamTest.java" sourcepath="org/apache/tika/io/TailStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.io.TikaInputStreamTest">
+      <SourceLine classname="org.apache.tika.io.TikaInputStreamTest" sourcefile="TikaInputStreamTest.java" sourcepath="org/apache/tika/io/TikaInputStreamTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.io.TikaInputStreamTest" name="testFileBased" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.io.TikaInputStreamTest" start="40" end="60" startBytecode="0" endBytecode="169" sourcefile="TikaInputStreamTest.java" sourcepath="org/apache/tika/io/TikaInputStreamTest.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.io.TikaInputStreamTest" start="59" end="59" startBytecode="51" endBytecode="51" sourcefile="TikaInputStreamTest.java" sourcepath="org/apache/tika/io/TikaInputStreamTest.java"/>
+    <SourceLine classname="org.apache.tika.io.TikaInputStreamTest" start="59" end="59" startBytecode="51" endBytecode="51" sourcefile="TikaInputStreamTest.java" sourcepath="org/apache/tika/io/TikaInputStreamTest.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.language.LanguageIdentifier">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageIdentifier" name="hasErrors" signature="()Z" isStatic="true">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="217" end="217" startBytecode="0" endBytecode="6" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="108" end="3100" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <Field classname="org.apache.tika.language.LanguageIdentifier" name="errors" signature="Ljava/lang/String;" isStatic="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="217" end="217" startBytecode="5" endBytecode="5" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="217" end="217" startBytecode="5" endBytecode="5" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.language.LanguageIdentifier">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageIdentifier" name="initProfiles" signature="()V" isStatic="true">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="161" end="189" startBytecode="0" endBytecode="495" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="165" end="165" startBytecode="12" endBytecode="12" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="166" end="166" startBytecode="16" endBytecode="16" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="170" end="170" startBytecode="28" endBytecode="28" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="172" end="172" startBytecode="32" endBytecode="32" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="173" end="173" startBytecode="42" endBytecode="42" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="174" end="174" startBytecode="49" endBytecode="49" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="179" end="179" startBytecode="90" endBytecode="90" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="180" end="180" startBytecode="104" endBytecode="104" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="189" end="189" startBytecode="230" endBytecode="230" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.language.LanguageIdentifier">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageIdentifier" name="addProfile" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="73" end="98" startBytecode="0" endBytecode="85" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="79" end="79" startBytecode="33" endBytecode="33" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="79" end="79" startBytecode="33" endBytecode="33" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.language.LanguageIdentifier">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageIdentifier" name="initProfiles" signature="()V" isStatic="true">
+      <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="161" end="189" startBytecode="0" endBytecode="102" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="363" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="165" end="165" startBytecode="12" endBytecode="12" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageIdentifier" start="165" end="165" startBytecode="12" endBytecode="12" sourcefile="LanguageIdentifier.java" sourcepath="org/apache/tika/language/LanguageIdentifier.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfile">
+      <SourceLine classname="org.apache.tika.language.LanguageProfile" sourcefile="LanguageProfile.java" sourcepath="org/apache/tika/language/LanguageProfile.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfile" name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.language.LanguageProfile" start="63" end="68" startBytecode="0" endBytecode="17" sourcefile="LanguageProfile.java" sourcepath="org/apache/tika/language/LanguageProfile.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Writer;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Writer" start="50" end="294" sourcefile="Writer.java" sourcepath="java/io/Writer.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.language.LanguageProfile" start="65" end="65" startBytecode="5" endBytecode="5" sourcefile="LanguageProfile.java" sourcepath="org/apache/tika/language/LanguageProfile.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfile" start="65" end="65" startBytecode="5" endBytecode="5" sourcefile="LanguageProfile.java" sourcepath="org/apache/tika/language/LanguageProfile.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfilerBuilder">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfilerBuilder" name="save" signature="(Ljava/io/OutputStream;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="407" end="438" startBytecode="0" endBytecode="585" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="getBytes" signature="()[B" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="956" end="956" startBytecode="0" endBytecode="37" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="408" end="408" startBytecode="30" endBytecode="30" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="408" end="408" startBytecode="30" endBytecode="30" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfilerBuilder">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfilerBuilder" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="449" end="549" startBytecode="0" endBytecode="1239" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="504" end="504" startBytecode="299" endBytecode="299" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="505" end="505" startBytecode="304" endBytecode="304" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="506" end="506" startBytecode="311" endBytecode="311" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="507" end="507" startBytecode="335" endBytecode="335" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="506" end="506" startBytecode="349" endBytecode="349" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="508" end="508" startBytecode="352" endBytecode="352" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="549" end="549" startBytecode="601" endBytecode="601" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfilerBuilder">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfilerBuilder" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="449" end="549" startBytecode="0" endBytecode="1239" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="545" end="545" startBytecode="594" endBytecode="594" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder" start="545" end="545" startBytecode="594" endBytecode="594" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+  </BugInstance>
+  <BugInstance type="NP_LOAD_OF_KNOWN_NULL_VALUE" priority="2" abbrev="NP" category="STYLE" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfilerBuilder$QuickStringBuffer">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder$QuickStringBuffer" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfilerBuilder$QuickStringBuffer" name="append" signature="(Ljava/lang/String;)Lorg/apache/tika/language/LanguageProfilerBuilder$QuickStringBuffer;" isStatic="false">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder$QuickStringBuffer" start="736" end="747" startBytecode="0" endBytecode="33" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    </Method>
+    <LocalVariable name="str" register="1" pc="1" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder$QuickStringBuffer" start="737" end="737" startBytecode="4" endBytecode="4" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilder$QuickStringBuffer" start="737" end="737" startBytecode="4" endBytecode="4" sourcefile="LanguageProfilerBuilder.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilder.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfilerBuilderTest">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfilerBuilderTest" name="testCreateProfile" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="51" end="63" startBytecode="0" endBytecode="264" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="59" end="59" startBytecode="76" endBytecode="76" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="60" end="60" startBytecode="80" endBytecode="80" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfilerBuilderTest">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfilerBuilderTest" name="createLanguageProfile" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="76" end="100" startBytecode="0" endBytecode="78" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="84" end="84" startBytecode="64" endBytecode="64" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="84" end="84" startBytecode="64" endBytecode="64" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.language.LanguageProfilerBuilderTest">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.language.LanguageProfilerBuilderTest" name="tearDown" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="104" end="107" startBytecode="0" endBytecode="125" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="106" end="106" startBytecode="43" endBytecode="43" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+    <SourceLine classname="org.apache.tika.language.LanguageProfilerBuilderTest" start="106" end="106" startBytecode="43" endBytecode="43" sourcefile="LanguageProfilerBuilderTest.java" sourcepath="org/apache/tika/language/LanguageProfilerBuilderTest.java"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.metadata.Metadata">
+      <SourceLine classname="org.apache.tika.metadata.Metadata" sourcefile="Metadata.java" sourcepath="org/apache/tika/metadata/Metadata.java"/>
+    </Class>
+    <Method classname="org.apache.tika.metadata.Metadata" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="org.apache.tika.metadata.Metadata" start="497" end="525" startBytecode="0" endBytecode="381" sourcefile="Metadata.java" sourcepath="org/apache/tika/metadata/Metadata.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tika.metadata.Property">
+      <SourceLine classname="org.apache.tika.metadata.Property" sourcefile="Property.java" sourcepath="org/apache/tika/metadata/Property.java"/>
+    </Class>
+    <Method classname="org.apache.tika.metadata.Property" name="getSecondaryExtractProperties" signature="()[Lorg/apache/tika/metadata/Property;" isStatic="false">
+      <SourceLine classname="org.apache.tika.metadata.Property" start="211" end="211" startBytecode="0" endBytecode="46" sourcefile="Property.java" sourcepath="org/apache/tika/metadata/Property.java"/>
+    </Method>
+    <Field classname="org.apache.tika.metadata.Property" name="secondaryExtractProperties" signature="[Lorg/apache/tika/metadata/Property;" isStatic="false">
+      <SourceLine classname="org.apache.tika.metadata.Property" sourcefile="Property.java" sourcepath="org/apache/tika/metadata/Property.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.metadata.Property" start="211" end="211" startBytecode="4" endBytecode="4" sourcefile="Property.java" sourcepath="org/apache/tika/metadata/Property.java"/>
+    <SourceLine classname="org.apache.tika.metadata.Property" start="211" end="211" startBytecode="4" endBytecode="4" sourcefile="Property.java" sourcepath="org/apache/tika/metadata/Property.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.mime.CustomReaderTest">
+      <SourceLine classname="org.apache.tika.mime.CustomReaderTest" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.mime.CustomReaderTest" name="testCustomReader" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="72" end="94" startBytecode="0" endBytecode="331" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="2" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="74" end="74" startBytecode="24" endBytecode="24" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="76" end="76" startBytecode="30" endBytecode="30" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="78" end="78" startBytecode="33" endBytecode="33" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="79" end="79" startBytecode="40" endBytecode="40" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="80" end="80" startBytecode="50" endBytecode="50" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="81" end="81" startBytecode="65" endBytecode="65" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="84" end="84" startBytecode="79" endBytecode="79" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="84" end="84" startBytecode="86" endBytecode="86" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="86" end="86" startBytecode="92" endBytecode="92" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="87" end="87" startBytecode="95" endBytecode="95" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="88" end="88" startBytecode="102" endBytecode="102" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="89" end="89" startBytecode="117" endBytecode="117" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="90" end="90" startBytecode="131" endBytecode="131" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="91" end="91" startBytecode="162" endBytecode="162" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="90" end="90" startBytecode="172" endBytecode="172" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.CustomReaderTest" start="94" end="94" startBytecode="175" endBytecode="175" sourcefile="CustomReaderTest.java" sourcepath="org/apache/tika/mime/CustomReaderTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 2}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.mime.MimeDetectionTest">
+      <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.mime.MimeDetectionTest" name="testFile" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="139" end="141" startBytecode="0" endBytecode="96" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="139" end="139" startBytecode="5" endBytecode="5" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="140" end="140" startBytecode="9" endBytecode="9" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="141" end="141" startBytecode="16" endBytecode="16" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.mime.MimeDetectionTest">
+      <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.mime.MimeDetectionTest" name="testUrl" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="134" end="136" startBytecode="0" endBytecode="108" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="134" end="134" startBytecode="5" endBytecode="5" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="135" end="135" startBytecode="10" endBytecode="10" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tika.mime.MimeDetectionTest" start="136" end="136" startBytecode="18" endBytecode="18" sourcefile="MimeDetectionTest.java" sourcepath="org/apache/tika/mime/MimeDetectionTest.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE" first="1">
+    <Class classname="org.apache.tika.mime.MimeTypes">
+      <SourceLine classname="org.apache.tika.mime.MimeTypes" sourcefile="MimeTypes.java" sourcepath="org/apache/tika/mime/MimeTypes.java"/>
+    </Class>
+    <Method classname="org.apache.tika.mime.MimeTypes" name="getMimeType" signature="([B)Lorg/apache/tika/mime/MimeType;" isStatic="false">
+      <SourceLine classname="org.apache.tika.mime.MimeTypes" start="169" end="217" startBytecode="0" endBytecode="628" sourcefile="MimeTypes.java" sourcepath="org/apache/tika/mime/MimeTypes.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.mime.MimeTypes" start="216" end="216" startBytecode="250" endBytecode="250" sourcefile="MimeTypes.java" sourcepath="org/apache/tika/mime/MimeTypes.java"/>
+    <SourceLine classname="org.apache.tika.mime.MimeTypes" start="216" end="216" startBytecode="250" endBytecode="250" sourcefile="MimeTypes.java" sourcepath="org/apache/tika/mime/MimeTypes.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.parser.ParseContext">
+      <SourceLine classname="org.apache.tika.parser.ParseContext" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    </Class>
+    <Method classname="org.apache.tika.parser.ParseContext" name="getSAXParserFactory" signature="()Ljavax/xml/parsers/SAXParserFactory;" isStatic="false">
+      <SourceLine classname="org.apache.tika.parser.ParseContext" start="128" end="145" startBytecode="0" endBytecode="192" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    </Method>
+    <Class classname="javax.xml.parsers.ParserConfigurationException" role="CLASS_EXCEPTION">
+      <SourceLine classname="javax.xml.parsers.ParserConfigurationException" sourcefile="ParserConfigurationException.java" sourcepath="javax/xml/parsers/ParserConfigurationException.java"/>
+    </Class>
+    <SourceLine classname="org.apache.tika.parser.ParseContext" start="135" end="135" startBytecode="33" endBytecode="33" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    <SourceLine classname="org.apache.tika.parser.ParseContext" start="135" end="135" startBytecode="33" endBytecode="33" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    <SourceLine classname="org.apache.tika.parser.ParseContext" start="135" end="135" startBytecode="33" endBytecode="33" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.parser.ParseContext">
+      <SourceLine classname="org.apache.tika.parser.ParseContext" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    </Class>
+    <Method classname="org.apache.tika.parser.ParseContext" name="getSAXParserFactory" signature="()Ljavax/xml/parsers/SAXParserFactory;" isStatic="false">
+      <SourceLine classname="org.apache.tika.parser.ParseContext" start="128" end="145" startBytecode="0" endBytecode="192" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    </Method>
+    <Class classname="org.xml.sax.SAXNotSupportedException" role="CLASS_EXCEPTION">
+      <SourceLine classname="org.xml.sax.SAXNotSupportedException" sourcefile="SAXNotSupportedException.java" sourcepath="org/xml/sax/SAXNotSupportedException.java"/>
+    </Class>
+    <SourceLine classname="org.apache.tika.parser.ParseContext" start="136" end="136" startBytecode="37" endBytecode="37" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    <SourceLine classname="org.apache.tika.parser.ParseContext" start="136" end="136" startBytecode="37" endBytecode="37" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+    <SourceLine classname="org.apache.tika.parser.ParseContext" start="136" end="136" startBytecode="37" endBytecode="37" sourcefile="ParseContext.java" sourcepath="org/apache/tika/parser/ParseContext.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.parser.external.ExternalParser">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Class>
+    <Method classname="org.apache.tika.parser.external.ExternalParser" name="extractOutput" signature="(Ljava/io/InputStream;Lorg/apache/tika/sax/XHTMLContentHandler;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="234" end="247" startBytecode="0" endBytecode="280" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="234" end="234" startBytecode="5" endBytecode="5" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="234" end="234" startBytecode="5" endBytecode="5" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tika.parser.external.ExternalParser">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Class>
+    <Method classname="org.apache.tika.parser.external.ExternalParser" name="getCommand" signature="()[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="99" end="99" startBytecode="0" endBytecode="46" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Method>
+    <Field classname="org.apache.tika.parser.external.ExternalParser" name="command" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="99" end="99" startBytecode="4" endBytecode="4" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="99" end="99" startBytecode="4" endBytecode="4" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.parser.external.ExternalParser">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Class>
+    <Method classname="org.apache.tika.parser.external.ExternalParser" name="parse" signature="(Lorg/apache/tika/io/TikaInputStream;Lorg/apache/tika/sax/XHTMLContentHandler;Lorg/apache/tika/metadata/Metadata;Lorg/apache/tika/io/TemporaryResources;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="154" end="220" startBytecode="0" endBytecode="897" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="218" end="218" startBytecode="316" endBytecode="316" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser" start="220" end="220" startBytecode="323" endBytecode="323" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.parser.external.ExternalParser$3">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser$3" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Class>
+    <Method classname="org.apache.tika.parser.external.ExternalParser$3" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParser$3" start="294" end="310" startBytecode="0" endBytecode="400" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser$3" start="294" end="294" startBytecode="12" endBytecode="12" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParser$3" start="294" end="294" startBytecode="12" endBytecode="12" sourcefile="ExternalParser.java" sourcepath="org/apache/tika/parser/external/ExternalParser.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tika.parser.external.ExternalParsersConfigReader">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParsersConfigReader" sourcefile="ExternalParsersConfigReader.java" sourcepath="org/apache/tika/parser/external/ExternalParsersConfigReader.java"/>
+    </Class>
+    <Method classname="org.apache.tika.parser.external.ExternalParsersConfigReader" name="read" signature="(Lorg/w3c/dom/Element;)Ljava/util/List;" isStatic="true">
+      <SourceLine classname="org.apache.tika.parser.external.ExternalParsersConfigReader" start="75" end="97" startBytecode="0" endBytecode="363" sourcefile="ExternalParsersConfigReader.java" sourcepath="org/apache/tika/parser/external/ExternalParsersConfigReader.java"/>
+    </Method>
+    <LocalVariable name="element" register="0" pc="130" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParsersConfigReader" start="94" end="94" startBytecode="131" endBytecode="131" sourcefile="ExternalParsersConfigReader.java" sourcepath="org/apache/tika/parser/external/ExternalParsersConfigReader.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="org.apache.tika.parser.external.ExternalParsersConfigReader" start="77" end="77" startBytecode="9" endBytecode="9" sourcefile="ExternalParsersConfigReader.java" sourcepath="org/apache/tika/parser/external/ExternalParsersConfigReader.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.DoomedCodeWarningProperty.DOOMED_CODE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.sax.BodyContentHandlerTest">
+      <SourceLine classname="org.apache.tika.sax.BodyContentHandlerTest" sourcefile="BodyContentHandlerTest.java" sourcepath="org/apache/tika/sax/BodyContentHandlerTest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.sax.BodyContentHandlerTest" name="testOutputStream" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.sax.BodyContentHandlerTest" start="40" end="49" startBytecode="0" endBytecode="150" sourcefile="BodyContentHandlerTest.java" sourcepath="org/apache/tika/sax/BodyContentHandlerTest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.sax.BodyContentHandlerTest" start="48" end="48" startBytecode="50" endBytecode="50" sourcefile="BodyContentHandlerTest.java" sourcepath="org/apache/tika/sax/BodyContentHandlerTest.java"/>
+    <SourceLine classname="org.apache.tika.sax.BodyContentHandlerTest" start="48" end="48" startBytecode="50" endBytecode="50" sourcefile="BodyContentHandlerTest.java" sourcepath="org/apache/tika/sax/BodyContentHandlerTest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.sax.ToTextContentHandler">
+      <SourceLine classname="org.apache.tika.sax.ToTextContentHandler" sourcefile="ToTextContentHandler.java" sourcepath="org/apache/tika/sax/ToTextContentHandler.java"/>
+    </Class>
+    <Method classname="org.apache.tika.sax.ToTextContentHandler" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.sax.ToTextContentHandler" start="60" end="61" startBytecode="0" endBytecode="68" sourcefile="ToTextContentHandler.java" sourcepath="org/apache/tika/sax/ToTextContentHandler.java"/>
+    </Method>
+    <Method classname="java.io.OutputStreamWriter" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.OutputStreamWriter" start="109" end="115" startBytecode="0" endBytecode="108" sourcefile="OutputStreamWriter.java" sourcepath="java/io/OutputStreamWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.sax.ToTextContentHandler" start="60" end="60" startBytecode="6" endBytecode="6" sourcefile="ToTextContentHandler.java" sourcepath="org/apache/tika/sax/ToTextContentHandler.java"/>
+    <SourceLine classname="org.apache.tika.sax.ToTextContentHandler" start="60" end="60" startBytecode="6" endBytecode="6" sourcefile="ToTextContentHandler.java" sourcepath="org/apache/tika/sax/ToTextContentHandler.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.sax.WriteOutContentHandler">
+      <SourceLine classname="org.apache.tika.sax.WriteOutContentHandler" sourcefile="WriteOutContentHandler.java" sourcepath="org/apache/tika/sax/WriteOutContentHandler.java"/>
+    </Class>
+    <Method classname="org.apache.tika.sax.WriteOutContentHandler" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.sax.WriteOutContentHandler" start="93" end="94" startBytecode="0" endBytecode="68" sourcefile="WriteOutContentHandler.java" sourcepath="org/apache/tika/sax/WriteOutContentHandler.java"/>
+    </Method>
+    <Method classname="java.io.OutputStreamWriter" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.OutputStreamWriter" start="109" end="115" startBytecode="0" endBytecode="108" sourcefile="OutputStreamWriter.java" sourcepath="java/io/OutputStreamWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.sax.WriteOutContentHandler" start="93" end="93" startBytecode="6" endBytecode="6" sourcefile="WriteOutContentHandler.java" sourcepath="org/apache/tika/sax/WriteOutContentHandler.java"/>
+    <SourceLine classname="org.apache.tika.sax.WriteOutContentHandler" start="93" end="93" startBytecode="6" endBytecode="6" sourcefile="WriteOutContentHandler.java" sourcepath="org/apache/tika/sax/WriteOutContentHandler.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.utils.RereadableInputStream">
+      <SourceLine classname="org.apache.tika.utils.RereadableInputStream" sourcefile="RereadableInputStream.java" sourcepath="org/apache/tika/utils/RereadableInputStream.java"/>
+    </Class>
+    <Method classname="org.apache.tika.utils.RereadableInputStream" name="close" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.utils.RereadableInputStream" start="221" end="226" startBytecode="0" endBytecode="90" sourcefile="RereadableInputStream.java" sourcepath="org/apache/tika/utils/RereadableInputStream.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.utils.RereadableInputStream" start="224" end="224" startBytecode="19" endBytecode="19" sourcefile="RereadableInputStream.java" sourcepath="org/apache/tika/utils/RereadableInputStream.java"/>
+    <SourceLine classname="org.apache.tika.utils.RereadableInputStream" start="224" end="224" startBytecode="19" endBytecode="19" sourcefile="RereadableInputStream.java" sourcepath="org/apache/tika/utils/RereadableInputStream.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 10 Jun 2014 21:52:46 -0700" total_classes="265" referenced_classes="565" total_bugs="75" total_size="12158" num_packages="16" vm_version="24.51-b03" cpu_seconds="42.82" clock_seconds="221.94" peak_mbytes="408.50" alloc_mbytes="455.00" gc_seconds="1.37" priority_2="45" priority_1="30">
+    <PackageStats package="org.apache.tika" total_bugs="6" total_types="8" total_size="1089" priority_2="6">
+      <ClassStats class="org.apache.tika.ResourceLoggingClassLoader" sourceFile="ResourceLoggingClassLoader.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="org.apache.tika.TestRereadableInputStream" sourceFile="TestRereadableInputStream.java" interface="false" size="67" bugs="4" priority_2="4"/>
+      <ClassStats class="org.apache.tika.TestRereadableInputStream$TestInputStream" sourceFile="TestRereadableInputStream.java" interface="false" size="13" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.Tika" sourceFile="Tika.java" interface="false" size="131" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.TikaDetectionTest" sourceFile="TikaDetectionTest.java" interface="false" size="798" bugs="0"/>
+      <ClassStats class="org.apache.tika.TikaIT" sourceFile="TikaIT.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.TypeDetectionBenchmark" sourceFile="TypeDetectionBenchmark.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="org.apache.tika.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.config" total_bugs="2" total_types="10" total_size="443" priority_2="2">
+      <ClassStats class="org.apache.tika.config.LoadErrorHandler" sourceFile="LoadErrorHandler.java" interface="true" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.config.LoadErrorHandler$1" sourceFile="LoadErrorHandler.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.apache.tika.config.LoadErrorHandler$2" sourceFile="LoadErrorHandler.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.config.LoadErrorHandler$3" sourceFile="LoadErrorHandler.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.apache.tika.config.ServiceLoader" sourceFile="ServiceLoader.java" interface="false" size="121" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.config.ServiceLoader$RankedService" sourceFile="ServiceLoader.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.config.TikaActivator" sourceFile="TikaActivator.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.apache.tika.config.TikaConfig" sourceFile="TikaConfig.java" interface="false" size="191" bugs="0"/>
+      <ClassStats class="org.apache.tika.config.TikaConfigTest" sourceFile="TikaConfigTest.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="org.apache.tika.config.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.detect" total_bugs="7" total_types="20" total_size="809" priority_2="3" priority_1="4">
+      <ClassStats class="org.apache.tika.detect.AutoDetectReader" sourceFile="AutoDetectReader.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.CompositeDetector" sourceFile="CompositeDetector.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.DefaultDetector" sourceFile="DefaultDetector.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.DefaultDetector$1" sourceFile="DefaultDetector.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.Detector" sourceFile="Detector.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.EmptyDetector" sourceFile="EmptyDetector.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.EncodingDetector" sourceFile="EncodingDetector.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.MagicDetector" sourceFile="MagicDetector.java" interface="false" size="229" bugs="4" priority_1="4"/>
+      <ClassStats class="org.apache.tika.detect.MagicDetectorTest" sourceFile="MagicDetectorTest.java" interface="false" size="134" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.MagicDetectorTest$RestrictiveInputStream" sourceFile="MagicDetectorTest.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.detect.NameDetector" sourceFile="NameDetector.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.NameDetectorTest" sourceFile="NameDetectorTest.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.TextDetector" sourceFile="TextDetector.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.TextDetectorTest" sourceFile="TextDetectorTest.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.TextStatistics" sourceFile="TextStatistics.java" interface="false" size="56" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.TypeDetector" sourceFile="TypeDetector.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.TypeDetectorTest" sourceFile="TypeDetectorTest.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.XmlRootExtractor" sourceFile="XmlRootExtractor.java" interface="false" size="16" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tika.detect.XmlRootExtractor$ExtractorHandler" sourceFile="XmlRootExtractor.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.detect.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.embedder" total_bugs="3" total_types="3" total_size="226" priority_2="3">
+      <ClassStats class="org.apache.tika.embedder.Embedder" sourceFile="Embedder.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="org.apache.tika.embedder.ExternalEmbedder" sourceFile="ExternalEmbedder.java" interface="false" size="211" bugs="3" priority_2="3"/>
+      <ClassStats class="org.apache.tika.embedder.ExternalEmbedder$1" sourceFile="ExternalEmbedder.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.exception" total_bugs="0" total_types="3" total_size="21">
+      <ClassStats class="org.apache.tika.exception.EncryptedDocumentException" sourceFile="EncryptedDocumentException.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="org.apache.tika.exception.TikaException" sourceFile="TikaException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.exception.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.extractor" total_bugs="0" total_types="8" total_size="122">
+      <ClassStats class="org.apache.tika.extractor.ContainerExtractor" sourceFile="ContainerExtractor.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="org.apache.tika.extractor.DocumentSelector" sourceFile="DocumentSelector.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.extractor.EmbeddedDocumentExtractor" sourceFile="EmbeddedDocumentExtractor.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="org.apache.tika.extractor.EmbeddedResourceHandler" sourceFile="EmbeddedResourceHandler.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.extractor.ParserContainerExtractor" sourceFile="ParserContainerExtractor.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="org.apache.tika.extractor.ParserContainerExtractor$RecursiveParser" sourceFile="ParserContainerExtractor.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="org.apache.tika.extractor.ParsingEmbeddedDocumentExtractor" sourceFile="ParsingEmbeddedDocumentExtractor.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="org.apache.tika.extractor.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.fork" total_bugs="4" total_types="24" total_size="907" priority_2="4">
+      <ClassStats class="org.apache.tika.fork.ClassLoaderProxy" sourceFile="ClassLoaderProxy.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ClassLoaderResource" sourceFile="ClassLoaderResource.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ContentHandlerProxy" sourceFile="ContentHandlerProxy.java" interface="false" size="117" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ContentHandlerResource" sourceFile="ContentHandlerResource.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkClient" sourceFile="ForkClient.java" interface="false" size="150" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tika.fork.ForkObjectInputStream" sourceFile="ForkObjectInputStream.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkParser" sourceFile="ForkParser.java" interface="false" size="96" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.fork.ForkParserTest" sourceFile="ForkParserTest.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkParserTest$1" sourceFile="ForkParserTest.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkParserTest$2" sourceFile="ForkParserTest.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkParserTest$3" sourceFile="ForkParserTest.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkParserTest$4" sourceFile="ForkParserTest.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkProxy" sourceFile="ForkProxy.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkResource" sourceFile="ForkResource.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.ForkServer" sourceFile="ForkServer.java" interface="false" size="100" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.fork.ForkTestParser" sourceFile="ForkTestParser.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.InputStreamProxy" sourceFile="InputStreamProxy.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.InputStreamResource" sourceFile="InputStreamResource.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.MemoryURLConnection" sourceFile="MemoryURLConnection.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.MemoryURLStreamHandler" sourceFile="MemoryURLStreamHandler.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.MemoryURLStreamHandlerFactory" sourceFile="MemoryURLStreamHandlerFactory.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.MemoryURLStreamRecord" sourceFile="MemoryURLStreamRecord.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.MetadataContentHandler" sourceFile="MetadataContentHandler.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.fork.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.io" total_bugs="24" total_types="25" total_size="1358" priority_2="5" priority_1="19">
+      <ClassStats class="org.apache.tika.io.CloseShieldInputStream" sourceFile="CloseShieldInputStream.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.ClosedInputStream" sourceFile="ClosedInputStream.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.CountingInputStream" sourceFile="CountingInputStream.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.EndianUtils" sourceFile="EndianUtils.java" interface="false" size="134" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.EndianUtils$BufferUnderrunException" sourceFile="EndianUtils.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.FilenameUtils" sourceFile="FilenameUtils.java" interface="false" size="26" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.io.FilenameUtilsTest" sourceFile="FilenameUtilsTest.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.IOExceptionWithCause" sourceFile="IOExceptionWithCause.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.IOUtils" sourceFile="IOUtils.java" interface="false" size="248" bugs="12" priority_1="12"/>
+      <ClassStats class="org.apache.tika.io.LookaheadInputStream" sourceFile="LookaheadInputStream.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.LookaheadInputStreamTest" sourceFile="LookaheadInputStreamTest.java" interface="false" size="72" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.io.NullInputStream" sourceFile="NullInputStream.java" interface="false" size="95" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.NullOutputStream" sourceFile="NullOutputStream.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.ProxyInputStream" sourceFile="ProxyInputStream.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TaggedIOException" sourceFile="TaggedIOException.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TaggedInputStream" sourceFile="TaggedInputStream.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TaggedInputStreamTest" sourceFile="TaggedInputStreamTest.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TailStream" sourceFile="TailStream.java" interface="false" size="84" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TailStreamTest" sourceFile="TailStreamTest.java" interface="false" size="99" bugs="9" priority_2="2" priority_1="7"/>
+      <ClassStats class="org.apache.tika.io.TemporaryResources" sourceFile="TemporaryResources.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TemporaryResources$1" sourceFile="TemporaryResources.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TikaInputStream" sourceFile="TikaInputStream.java" interface="false" size="184" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TikaInputStream$1" sourceFile="TikaInputStream.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.io.TikaInputStreamTest" sourceFile="TikaInputStreamTest.java" interface="false" size="62" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.io.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.language" total_bugs="12" total_types="13" total_size="777" priority_2="11" priority_1="1">
+      <ClassStats class="org.apache.tika.language.LanguageIdentifier" sourceFile="LanguageIdentifier.java" interface="false" size="97" bugs="4" priority_2="4"/>
+      <ClassStats class="org.apache.tika.language.LanguageIdentifierTest" sourceFile="LanguageIdentifierTest.java" interface="false" size="80" bugs="0"/>
+      <ClassStats class="org.apache.tika.language.LanguageProfile" sourceFile="LanguageProfile.java" interface="false" size="65" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.language.LanguageProfile$Counter" sourceFile="LanguageProfile.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.language.LanguageProfileTest" sourceFile="LanguageProfileTest.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.apache.tika.language.LanguageProfilerBuilder" sourceFile="LanguageProfilerBuilder.java" interface="false" size="253" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="org.apache.tika.language.LanguageProfilerBuilder$NGramEntry" sourceFile="LanguageProfilerBuilder.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="org.apache.tika.language.LanguageProfilerBuilder$QuickStringBuffer" sourceFile="LanguageProfilerBuilder.java" interface="false" size="56" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.language.LanguageProfilerBuilderTest" sourceFile="LanguageProfilerBuilderTest.java" interface="false" size="64" bugs="3" priority_2="3"/>
+      <ClassStats class="org.apache.tika.language.ProfilingHandler" sourceFile="ProfilingHandler.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="org.apache.tika.language.ProfilingWriter" sourceFile="ProfilingWriter.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="org.apache.tika.language.ProfilingWriterTest" sourceFile="ProfilingWriterTest.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.apache.tika.language.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.metadata" total_bugs="2" total_types="30" total_size="1734" priority_2="1" priority_1="1">
+      <ClassStats class="org.apache.tika.metadata.ClimateForcast" sourceFile="ClimateForcast.java" interface="true" size="16" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.CreativeCommons" sourceFile="CreativeCommons.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.DublinCore" sourceFile="DublinCore.java" interface="true" size="57" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.Geographic" sourceFile="Geographic.java" interface="true" size="11" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.HttpHeaders" sourceFile="HttpHeaders.java" interface="true" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.IPTC" sourceFile="IPTC.java" interface="true" size="392" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.MSOffice" sourceFile="MSOffice.java" interface="true" size="61" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.Message" sourceFile="Message.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.Metadata" sourceFile="Metadata.java" interface="false" size="209" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tika.metadata.Office" sourceFile="Office.java" interface="true" size="56" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.OfficeOpenXMLCore" sourceFile="OfficeOpenXMLCore.java" interface="true" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.OfficeOpenXMLExtended" sourceFile="OfficeOpenXMLExtended.java" interface="true" size="39" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.PagedText" sourceFile="PagedText.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.Photoshop" sourceFile="Photoshop.java" interface="true" size="46" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.Property" sourceFile="Property.java" interface="false" size="146" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.metadata.Property$PropertyType" sourceFile="Property.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.Property$ValueType" sourceFile="Property.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.PropertyTypeException" sourceFile="PropertyTypeException.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.TIFF" sourceFile="TIFF.java" interface="true" size="53" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.TestMetadata" sourceFile="TestMetadata.java" interface="false" size="224" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.TikaCoreProperties" sourceFile="TikaCoreProperties.java" interface="true" size="98" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.TikaMetadataKeys" sourceFile="TikaMetadataKeys.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.TikaMimeKeys" sourceFile="TikaMimeKeys.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.XMP" sourceFile="XMP.java" interface="true" size="19" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.XMPDM" sourceFile="XMPDM.java" interface="true" size="112" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.XMPDM$ChannelTypePropertyConverter" sourceFile="XMPDM.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.XMPIdq" sourceFile="XMPIdq.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.XMPMM" sourceFile="XMPMM.java" interface="true" size="19" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.XMPRights" sourceFile="XMPRights.java" interface="true" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.metadata.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.mime" total_bugs="4" total_types="25" total_size="1548" priority_2="4">
+      <ClassStats class="org.apache.tika.mime.AndClause" sourceFile="AndClause.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.Clause" sourceFile="Clause.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.CustomReaderTest" sourceFile="CustomReaderTest.java" interface="false" size="20" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.mime.CustomReaderTest$CustomMimeTypesReader" sourceFile="CustomReaderTest.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.HexCoDec" sourceFile="HexCoDec.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.Magic" sourceFile="Magic.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MagicMatch" sourceFile="MagicMatch.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MediaType" sourceFile="MediaType.java" interface="false" size="211" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MediaTypeRegistry" sourceFile="MediaTypeRegistry.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MediaTypeTest" sourceFile="MediaTypeTest.java" interface="false" size="132" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeDetectionTest" sourceFile="MimeDetectionTest.java" interface="false" size="121" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tika.mime.MimeType" sourceFile="MimeType.java" interface="false" size="141" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeType$RootXML" sourceFile="MimeType.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeTypeException" sourceFile="MimeTypeException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeTypes" sourceFile="MimeTypes.java" interface="false" size="191" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.mime.MimeTypesFactory" sourceFile="MimeTypesFactory.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeTypesReader" sourceFile="MimeTypesReader.java" interface="false" size="114" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeTypesReader$ClauseRecord" sourceFile="MimeTypesReader.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeTypesReaderMetKeys" sourceFile="MimeTypesReaderMetKeys.java" interface="true" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.MimeTypesReaderTest" sourceFile="MimeTypesReaderTest.java" interface="false" size="89" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.OrClause" sourceFile="OrClause.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.Patterns" sourceFile="Patterns.java" interface="false" size="101" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.Patterns$LengthComparator" sourceFile="Patterns.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.PatternsTest" sourceFile="PatternsTest.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="org.apache.tika.mime.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.parser" total_bugs="2" total_types="28" total_size="676" priority_2="2">
+      <ClassStats class="org.apache.tika.parser.AbstractParser" sourceFile="AbstractParser.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.AutoDetectParser" sourceFile="AutoDetectParser.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.CompositeParser" sourceFile="CompositeParser.java" interface="false" size="94" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.CompositeParserTest" sourceFile="CompositeParserTest.java" interface="false" size="72" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.CompositeParserTest$1" sourceFile="CompositeParserTest.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.CompositeParserTest$2" sourceFile="CompositeParserTest.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.CompositeParserTest$3" sourceFile="CompositeParserTest.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.CryptoParser" sourceFile="CryptoParser.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.DefaultParser" sourceFile="DefaultParser.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.DefaultParser$1" sourceFile="DefaultParser.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.DelegatingParser" sourceFile="DelegatingParser.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.DummyParser" sourceFile="DummyParser.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.EmptyParser" sourceFile="EmptyParser.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ErrorParser" sourceFile="ErrorParser.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.NetworkParser" sourceFile="NetworkParser.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.NetworkParser$1" sourceFile="NetworkParser.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.NetworkParser$MetaHandler" sourceFile="NetworkParser.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.NetworkParser$ParsingTask" sourceFile="NetworkParser.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ParseContext" sourceFile="ParseContext.java" interface="false" size="39" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tika.parser.Parser" sourceFile="Parser.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ParserDecorator" sourceFile="ParserDecorator.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ParserDecorator$1" sourceFile="ParserDecorator.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ParserPostProcessor" sourceFile="ParserPostProcessor.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ParsingReader" sourceFile="ParsingReader.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ParsingReader$1" sourceFile="ParsingReader.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.ParsingReader$ParsingTask" sourceFile="ParsingReader.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.PasswordProvider" sourceFile="PasswordProvider.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.parser.external" total_bugs="5" total_types="9" total_size="332" priority_2="3" priority_1="2">
+      <ClassStats class="org.apache.tika.parser.external.CompositeExternalParser" sourceFile="CompositeExternalParser.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.external.ExternalParser" sourceFile="ExternalParser.java" interface="false" size="126" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="org.apache.tika.parser.external.ExternalParser$1" sourceFile="ExternalParser.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.external.ExternalParser$2" sourceFile="ExternalParser.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.external.ExternalParser$3" sourceFile="ExternalParser.java" interface="false" size="20" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tika.parser.external.ExternalParsersConfigReader" sourceFile="ExternalParsersConfigReader.java" interface="false" size="106" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.parser.external.ExternalParsersConfigReaderMetKeys" sourceFile="ExternalParsersConfigReaderMetKeys.java" interface="true" size="11" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.external.ExternalParsersFactory" sourceFile="ExternalParsersFactory.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="org.apache.tika.parser.external.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.sax" total_bugs="3" total_types="38" total_size="1511" priority_1="3">
+      <ClassStats class="org.apache.tika.sax.BodyContentHandler" sourceFile="BodyContentHandler.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.BodyContentHandlerTest" sourceFile="BodyContentHandlerTest.java" interface="false" size="12" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tika.sax.ContentHandlerDecorator" sourceFile="ContentHandlerDecorator.java" interface="false" size="74" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.ElementMappingContentHandler" sourceFile="ElementMappingContentHandler.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.ElementMappingContentHandler$TargetElement" sourceFile="ElementMappingContentHandler.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.EmbeddedContentHandler" sourceFile="EmbeddedContentHandler.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.EndDocumentShieldingContentHandler" sourceFile="EndDocumentShieldingContentHandler.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.ExpandedTitleContentHandler" sourceFile="ExpandedTitleContentHandler.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.Link" sourceFile="Link.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.LinkBuilder" sourceFile="LinkBuilder.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.LinkContentHandler" sourceFile="LinkContentHandler.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.LinkContentHandlerTest" sourceFile="LinkContentHandlerTest.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.OfflineContentHandler" sourceFile="OfflineContentHandler.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.OfflineContentHandlerTest" sourceFile="OfflineContentHandlerTest.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SafeContentHandler" sourceFile="SafeContentHandler.java" interface="false" size="77" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SafeContentHandler$1" sourceFile="SafeContentHandler.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SafeContentHandler$2" sourceFile="SafeContentHandler.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SafeContentHandler$Output" sourceFile="SafeContentHandler.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SafeContentHandler$StringOutput" sourceFile="SafeContentHandler.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SafeContentHandlerTest" sourceFile="SafeContentHandlerTest.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SecureContentHandler" sourceFile="SecureContentHandler.java" interface="false" size="92" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SecureContentHandler$SecureSAXException" sourceFile="SecureContentHandler.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SecureContentHandlerTest" sourceFile="SecureContentHandlerTest.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.SerializerTest" sourceFile="SerializerTest.java" interface="false" size="103" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.TaggedContentHandler" sourceFile="TaggedContentHandler.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.TaggedSAXException" sourceFile="TaggedSAXException.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.TeeContentHandler" sourceFile="TeeContentHandler.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.TextContentHandler" sourceFile="TextContentHandler.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.ToHTMLContentHandler" sourceFile="ToHTMLContentHandler.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.ToTextContentHandler" sourceFile="ToTextContentHandler.java" interface="false" size="31" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tika.sax.ToXMLContentHandler" sourceFile="ToXMLContentHandler.java" interface="false" size="110" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.ToXMLContentHandler$ElementInfo" sourceFile="ToXMLContentHandler.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.WriteOutContentHandler" sourceFile="WriteOutContentHandler.java" interface="false" size="57" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tika.sax.WriteOutContentHandler$WriteLimitReachedException" sourceFile="WriteOutContentHandler.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.XHTMLContentHandler" sourceFile="XHTMLContentHandler.java" interface="false" size="144" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.XHTMLContentHandlerTest" sourceFile="XHTMLContentHandlerTest.java" interface="false" size="70" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.XMPContentHandler" sourceFile="XMPContentHandler.java" interface="false" size="72" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.sax.xpath" total_bugs="0" total_types="14" total_size="322">
+      <ClassStats class="org.apache.tika.sax.xpath.AttributeMatcher" sourceFile="AttributeMatcher.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.ChildMatcher" sourceFile="ChildMatcher.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.CompositeMatcher" sourceFile="CompositeMatcher.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.ElementMatcher" sourceFile="ElementMatcher.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.Matcher" sourceFile="Matcher.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.MatchingContentHandler" sourceFile="MatchingContentHandler.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.NamedAttributeMatcher" sourceFile="NamedAttributeMatcher.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.NamedElementMatcher" sourceFile="NamedElementMatcher.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.NodeMatcher" sourceFile="NodeMatcher.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.SubtreeMatcher" sourceFile="SubtreeMatcher.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.TextMatcher" sourceFile="TextMatcher.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.XPathParser" sourceFile="XPathParser.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.XPathParserTest" sourceFile="XPathParserTest.java" interface="false" size="91" bugs="0"/>
+      <ClassStats class="org.apache.tika.sax.xpath.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.utils" total_bugs="1" total_types="7" total_size="283" priority_2="1">
+      <ClassStats class="org.apache.tika.utils.CharsetUtils" sourceFile="CharsetUtils.java" interface="false" size="108" bugs="0"/>
+      <ClassStats class="org.apache.tika.utils.CharsetUtilsTest" sourceFile="CharsetUtilsTest.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="org.apache.tika.utils.DateUtils" sourceFile="DateUtils.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="org.apache.tika.utils.RegexUtils" sourceFile="RegexUtils.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tika.utils.RegexUtilsTest" sourceFile="RegexUtilsTest.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.apache.tika.utils.RereadableInputStream" sourceFile="RereadableInputStream.java" interface="false" size="74" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.utils.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="649" invocations="1528" avgMicrosecondsPerInvocation="424" maxMicrosecondsPerInvocation="12977" standardDeviationMircosecondsPerInvocation="793"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="534" invocations="1516" avgMicrosecondsPerInvocation="352" maxMicrosecondsPerInvocation="8120" standardDeviationMircosecondsPerInvocation="605"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="488" invocations="1636" avgMicrosecondsPerInvocation="298" maxMicrosecondsPerInvocation="11643" standardDeviationMircosecondsPerInvocation="582"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="441" invocations="1649" avgMicrosecondsPerInvocation="267" maxMicrosecondsPerInvocation="9201" standardDeviationMircosecondsPerInvocation="550"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="402" invocations="1526" avgMicrosecondsPerInvocation="263" maxMicrosecondsPerInvocation="15810" standardDeviationMircosecondsPerInvocation="625"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="392" invocations="1530" avgMicrosecondsPerInvocation="256" maxMicrosecondsPerInvocation="8406" standardDeviationMircosecondsPerInvocation="388"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="346" invocations="1318" avgMicrosecondsPerInvocation="262" maxMicrosecondsPerInvocation="8425" standardDeviationMircosecondsPerInvocation="478"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="336" invocations="2" avgMicrosecondsPerInvocation="168277" maxMicrosecondsPerInvocation="219639" standardDeviationMircosecondsPerInvocation="51362"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="282" invocations="1347" avgMicrosecondsPerInvocation="209" maxMicrosecondsPerInvocation="11555" standardDeviationMircosecondsPerInvocation="552"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="276" invocations="1352" avgMicrosecondsPerInvocation="204" maxMicrosecondsPerInvocation="3526" standardDeviationMircosecondsPerInvocation="254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="181" invocations="265" avgMicrosecondsPerInvocation="683" maxMicrosecondsPerInvocation="33119" standardDeviationMircosecondsPerInvocation="2184"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="157" invocations="2338" avgMicrosecondsPerInvocation="67" maxMicrosecondsPerInvocation="1767" standardDeviationMircosecondsPerInvocation="96"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="154" invocations="775" avgMicrosecondsPerInvocation="199" maxMicrosecondsPerInvocation="3417" standardDeviationMircosecondsPerInvocation="303"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="142" invocations="252" avgMicrosecondsPerInvocation="565" maxMicrosecondsPerInvocation="6581" standardDeviationMircosecondsPerInvocation="873"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="125" invocations="1528" avgMicrosecondsPerInvocation="82" maxMicrosecondsPerInvocation="10273" standardDeviationMircosecondsPerInvocation="361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="124" invocations="565" avgMicrosecondsPerInvocation="221" maxMicrosecondsPerInvocation="3873" standardDeviationMircosecondsPerInvocation="421"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="118" invocations="1549" avgMicrosecondsPerInvocation="76" maxMicrosecondsPerInvocation="945" standardDeviationMircosecondsPerInvocation="69"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="113" invocations="23318" avgMicrosecondsPerInvocation="4" maxMicrosecondsPerInvocation="152" standardDeviationMircosecondsPerInvocation="9"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="93" invocations="265" avgMicrosecondsPerInvocation="353" maxMicrosecondsPerInvocation="2622" standardDeviationMircosecondsPerInvocation="447"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="93" invocations="265" avgMicrosecondsPerInvocation="352" maxMicrosecondsPerInvocation="3958" standardDeviationMircosecondsPerInvocation="487"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="85" invocations="265" avgMicrosecondsPerInvocation="322" maxMicrosecondsPerInvocation="3826" standardDeviationMircosecondsPerInvocation="490"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="76" invocations="258" avgMicrosecondsPerInvocation="297" maxMicrosecondsPerInvocation="9460" standardDeviationMircosecondsPerInvocation="651"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="75" invocations="1516" avgMicrosecondsPerInvocation="49" maxMicrosecondsPerInvocation="1125" standardDeviationMircosecondsPerInvocation="84"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="74" invocations="265" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="4053" standardDeviationMircosecondsPerInvocation="598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="73" invocations="265" avgMicrosecondsPerInvocation="277" maxMicrosecondsPerInvocation="7507" standardDeviationMircosecondsPerInvocation="577"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="67" invocations="427" avgMicrosecondsPerInvocation="159" maxMicrosecondsPerInvocation="1223" standardDeviationMircosecondsPerInvocation="216"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="61" invocations="246" avgMicrosecondsPerInvocation="248" maxMicrosecondsPerInvocation="3496" standardDeviationMircosecondsPerInvocation="507"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="60" invocations="265" avgMicrosecondsPerInvocation="227" maxMicrosecondsPerInvocation="9026" standardDeviationMircosecondsPerInvocation="609"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="59" invocations="1487" avgMicrosecondsPerInvocation="40" maxMicrosecondsPerInvocation="1545" standardDeviationMircosecondsPerInvocation="89"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSelfComparison" totalMilliseconds="57" invocations="264" avgMicrosecondsPerInvocation="219" maxMicrosecondsPerInvocation="11450" standardDeviationMircosecondsPerInvocation="744"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSqlInjection" totalMilliseconds="52" invocations="263" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="3753" standardDeviationMircosecondsPerInvocation="327"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="51" invocations="265" avgMicrosecondsPerInvocation="195" maxMicrosecondsPerInvocation="2551" standardDeviationMircosecondsPerInvocation="325"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="51" invocations="265" avgMicrosecondsPerInvocation="194" maxMicrosecondsPerInvocation="7703" standardDeviationMircosecondsPerInvocation="522"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="51" invocations="257" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="2104" standardDeviationMircosecondsPerInvocation="306"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1402513512305" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

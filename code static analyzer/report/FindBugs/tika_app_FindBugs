@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="1" timestamp="1402470450329" analysisTimestamp="1402470447172" release="">
+  <Project projectName="tika-app">
+    <Jar>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/target/test-classes</Jar>
+    <Jar>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/target/classes</Jar>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-parsers/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-parsers/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/osgi/org.osgi.core/4.0.0/org.osgi.core-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-core/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/osgi/org.osgi.compendium/4.0.0/org.osgi.compendium-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/biz/aQute/bndlib/1.43.0/bndlib-1.43.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/junit/junit/4.11/junit-4.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/gagravarr/vorbis-java-tika/0.1/vorbis-java-tika-0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1-tests.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/felix/org.apache.felix.scr.annotations/1.6.0/org.apache.felix.scr.annotations-1.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/edu/ucar/netcdf/4.2-min/netcdf-4.2-min.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/tukaani/xz/1.2/xz-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/pdfbox/pdfbox/1.8.4/pdfbox-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/pdfbox/fontbox/1.8.4/fontbox-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/poi/poi/3.10-beta2/poi-3.10-beta2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/poi/poi-scratchpad/3.10-beta2/poi-scratchpad-3.10-beta2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/poi/poi-ooxml/3.10-beta2/poi-ooxml-3.10-beta2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.10-beta2/poi-ooxml-schemas-3.10-beta2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/com/googlecode/mp4parser/isoparser/1.0-RC-1/isoparser-1.0-RC-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/aspectj/aspectjrt/1.6.11/aspectjrt-1.6.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/rome/rome/0.9/rome-0.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/gagravarr/vorbis-java-core/0.1/vorbis-java-core-0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/com/uwyn/jhighlight/1.0/jhighlight-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/junit/junit/4.10/junit-4.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/mockito/mockito-core/1.7/mockito-core-1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-xmp/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/Downloads/tika-1.5/tika-xmp/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/com/google/code/gson/gson/1.7.1/gson-1.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/CHazyhabiT/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar</AuxClasspathEntry>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/src/test/resources</SrcDir>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/src/main/resources</SrcDir>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/src/main/java</SrcDir>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/src/test/java</SrcDir>
+    <SrcDir>/Users/CHazyhabiT/Downloads/tika-1.5/tika-app/src/main/resources-filtered</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLI">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLI" name="getOutputWriter" signature="(Ljava/io/OutputStream;Ljava/lang/String;)Ljava/io/Writer;" isStatic="true">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI" start="642" end="649" startBytecode="0" endBytecode="134" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Method>
+    <Method classname="java.io.OutputStreamWriter" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.OutputStreamWriter" start="109" end="115" startBytecode="0" endBytecode="108" sourcefile="OutputStreamWriter.java" sourcepath="java/io/OutputStreamWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI" start="649" end="649" startBytecode="49" endBytecode="49" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI" start="649" end="649" startBytecode="49" endBytecode="49" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLI$10">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI$10" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLI$10" name="process" signature="(Ljava/io/InputStream;Ljava/io/OutputStream;Lorg/apache/tika/metadata/Metadata;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI$10" start="252" end="255" startBytecode="0" endBytecode="20" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Writer;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Writer" start="50" end="294" sourcefile="Writer.java" sourcepath="java/io/Writer.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI$10" start="252" end="252" startBytecode="0" endBytecode="0" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI$10" start="252" end="252" startBytecode="0" endBytecode="0" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLI$11">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI$11" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLI$11" name="process" signature="(Ljava/io/InputStream;Ljava/io/OutputStream;Lorg/apache/tika/metadata/Metadata;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI$11" start="265" end="272" startBytecode="0" endBytecode="268" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI$11" start="266" end="266" startBytecode="61" endBytecode="61" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI$11" start="267" end="267" startBytecode="66" endBytecode="66" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLI$11">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI$11" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLI$11" name="process" signature="(Ljava/io/InputStream;Ljava/io/OutputStream;Lorg/apache/tika/metadata/Metadata;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI$11" start="265" end="272" startBytecode="0" endBytecode="62" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Writer;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Writer" start="50" end="294" sourcefile="Writer.java" sourcepath="java/io/Writer.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI$11" start="269" end="269" startBytecode="83" endBytecode="83" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLI$11" start="269" end="269" startBytecode="83" endBytecode="83" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLI$NoDocumentXMPMetaHandler">
+      <SourceLine classname="org.apache.tika.cli.TikaCLI$NoDocumentXMPMetaHandler" start="876" end="896" sourcefile="TikaCLI.java" sourcepath="org/apache/tika/cli/TikaCLI.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="setUp" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="45" end="49" startBytecode="0" endBytecode="103" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.PrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintStream" start="135" end="136" startBytecode="0" endBytecode="34" sourcefile="PrintStream.java" sourcepath="java/io/PrintStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="48" end="48" startBytecode="39" endBytecode="39" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="48" end="48" startBytecode="39" endBytecode="39" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testDetectOutput" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="156" end="159" startBytecode="0" endBytecode="118" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="158" end="158" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="158" end="158" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testHTMLOutput" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="107" end="112" startBytecode="0" endBytecode="147" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="109" end="109" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="109" end="109" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testLanguageOutput" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="144" end="147" startBytecode="0" endBytecode="118" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="146" end="146" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="146" end="146" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testListMetModels" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="168" end="171" startBytecode="0" endBytecode="118" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="170" end="170" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="170" end="170" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testListParserDetail" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="70" end="73" startBytecode="0" endBytecode="93" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="72" end="72" startBytecode="18" endBytecode="18" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="72" end="72" startBytecode="18" endBytecode="18" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testListSupportedTypes" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="180" end="183" startBytecode="0" endBytecode="118" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="182" end="182" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="182" end="182" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testMetadataOutput" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="132" end="135" startBytecode="0" endBytecode="118" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="134" end="134" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="134" end="134" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testMultiValuedMetadata" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="230" end="237" startBytecode="0" endBytecode="173" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="232" end="232" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="232" end="232" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testTextOutput" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="121" end="124" startBytecode="0" endBytecode="118" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="123" end="123" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="123" end="123" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testXMLOutput" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="95" end="98" startBytecode="0" endBytecode="118" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="97" end="97" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="97" end="97" startBytecode="43" endBytecode="43" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testZipWithSubdirs" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="242" end="251" startBytecode="0" endBytecode="207" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.ByteArrayOutputStream" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.ByteArrayOutputStream" start="208" end="208" startBytecode="0" endBytecode="40" sourcefile="ByteArrayOutputStream.java" sourcepath="java/io/ByteArrayOutputStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="246" end="246" startBytecode="74" endBytecode="74" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="246" end="246" startBytecode="74" endBytecode="74" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="tearDown" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="190" end="193" startBytecode="0" endBytecode="95" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="191" end="191" startBytecode="21" endBytecode="21" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="191" end="191" startBytecode="21" endBytecode="21" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testExtract" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="197" end="225" startBytecode="0" endBytecode="436" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="198" end="198" startBytecode="9" endBytecode="9" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="198" end="198" startBytecode="9" endBytecode="9" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testExtract" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="197" end="225" startBytecode="0" endBytecode="436" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdir" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1303" end="1310" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="199" end="199" startBytecode="14" endBytecode="14" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="199" end="199" startBytecode="14" endBytecode="14" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.cli.TikaCLITest">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Class>
+    <Method classname="org.apache.tika.cli.TikaCLITest" name="testZipWithSubdirs" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="242" end="251" startBytecode="0" endBytecode="207" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1028" end="1035" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="243" end="243" startBytecode="49" endBytecode="49" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+    <SourceLine classname="org.apache.tika.cli.TikaCLITest" start="243" end="243" startBytecode="49" endBytecode="49" sourcefile="TikaCLITest.java" sourcepath="org/apache/tika/cli/TikaCLITest.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tika.gui.TikaGUI$ImageSavingParser">
+      <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+    </Class>
+    <Method classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" name="&lt;init&gt;" signature="(Lorg/apache/tika/parser/Parser;)V" isStatic="false">
+      <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" start="568" end="575" startBytecode="0" endBytecode="159" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+    </Method>
+    <Class classname="java.io.IOException" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.io.IOException" sourcefile="IOException.java" sourcepath="java/io/IOException.java"/>
+    </Class>
+    <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" start="574" end="574" startBytecode="39" endBytecode="39" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+    <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" start="574" end="574" startBytecode="39" endBytecode="39" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+    <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" start="574" end="574" startBytecode="39" endBytecode="39" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED" priority="1" abbrev="RV" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tika.gui.TikaGUI$ImageSavingParser">
+      <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+    </Class>
+    <Method classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" name="requestSave" signature="(Ljava/lang/String;)Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" start="578" end="587" startBytecode="0" endBytecode="164" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="substring" signature="(I)Ljava/lang/String;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="1870" end="1877" startBytecode="0" endBytecode="117" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" start="582" end="582" startBytecode="16" endBytecode="16" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+    <SourceLine classname="org.apache.tika.gui.TikaGUI$ImageSavingParser" start="582" end="582" startBytecode="16" endBytecode="16" sourcefile="TikaGUI.java" sourcepath="org/apache/tika/gui/TikaGUI.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 10 Jun 2014 22:41:01 -0700" total_classes="31" referenced_classes="438" total_bugs="23" total_size="1225" num_packages="2" vm_version="24.51-b03" cpu_seconds="118.70" clock_seconds="42895.64" peak_mbytes="341.16" alloc_mbytes="455.00" gc_seconds="14.08" priority_2="9" priority_1="14">
+    <PackageStats package="org.apache.tika.cli" total_bugs="21" total_types="25" total_size="824" priority_2="8" priority_1="13">
+      <ClassStats class="org.apache.tika.cli.TikaCLI" sourceFile="TikaCLI.java" interface="false" size="355" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$1" sourceFile="TikaCLI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$10" sourceFile="TikaCLI.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$11" sourceFile="TikaCLI.java" interface="false" size="14" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$12" sourceFile="TikaCLI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$13" sourceFile="TikaCLI.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$14" sourceFile="TikaCLI.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$15" sourceFile="TikaCLI.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$2" sourceFile="TikaCLI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$3" sourceFile="TikaCLI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$4" sourceFile="TikaCLI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$5" sourceFile="TikaCLI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$6" sourceFile="TikaCLI.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$7" sourceFile="TikaCLI.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$8" sourceFile="TikaCLI.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$9" sourceFile="TikaCLI.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$9$1" sourceFile="TikaCLI.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$FileEmbeddedDocumentExtractor" sourceFile="TikaCLI.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$NoDocumentJSONMetHandler" sourceFile="TikaCLI.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$NoDocumentMetHandler" sourceFile="TikaCLI.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$NoDocumentXMPMetaHandler" sourceFile="TikaCLI.java" interface="false" size="18" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$OutputType" sourceFile="TikaCLI.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$TikaServer" sourceFile="TikaCLI.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLI$TikaServer$1" sourceFile="TikaCLI.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="org.apache.tika.cli.TikaCLITest" sourceFile="TikaCLITest.java" interface="false" size="118" bugs="16" priority_2="4" priority_1="12"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tika.gui" total_bugs="2" total_types="6" total_size="401" priority_2="1" priority_1="1">
+      <ClassStats class="org.apache.tika.gui.ParsingTransferHandler" sourceFile="ParsingTransferHandler.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="org.apache.tika.gui.TikaGUI" sourceFile="TikaGUI.java" interface="false" size="258" bugs="0"/>
+      <ClassStats class="org.apache.tika.gui.TikaGUI$1" sourceFile="TikaGUI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.gui.TikaGUI$2" sourceFile="TikaGUI.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="org.apache.tika.gui.TikaGUI$ImageDocumentSelector" sourceFile="TikaGUI.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tika.gui.TikaGUI$ImageSavingParser" sourceFile="TikaGUI.java" interface="false" size="33" bugs="2" priority_2="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="757" invocations="1887" avgMicrosecondsPerInvocation="401" maxMicrosecondsPerInvocation="15033" standardDeviationMircosecondsPerInvocation="835"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="219" invocations="438" avgMicrosecondsPerInvocation="500" maxMicrosecondsPerInvocation="13351" standardDeviationMircosecondsPerInvocation="1144"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="208" invocations="1891" avgMicrosecondsPerInvocation="110" maxMicrosecondsPerInvocation="552" standardDeviationMircosecondsPerInvocation="60"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="181" invocations="2" avgMicrosecondsPerInvocation="90759" maxMicrosecondsPerInvocation="134709" standardDeviationMircosecondsPerInvocation="43950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="147" invocations="966" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="2187" standardDeviationMircosecondsPerInvocation="169"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="89" invocations="152" avgMicrosecondsPerInvocation="588" maxMicrosecondsPerInvocation="6258" standardDeviationMircosecondsPerInvocation="974"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="78" invocations="149" avgMicrosecondsPerInvocation="530" maxMicrosecondsPerInvocation="6635" standardDeviationMircosecondsPerInvocation="869"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="77" invocations="162" avgMicrosecondsPerInvocation="480" maxMicrosecondsPerInvocation="5313" standardDeviationMircosecondsPerInvocation="783"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="75" invocations="161" avgMicrosecondsPerInvocation="469" maxMicrosecondsPerInvocation="18121" standardDeviationMircosecondsPerInvocation="1498"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="72" invocations="152" avgMicrosecondsPerInvocation="479" maxMicrosecondsPerInvocation="5928" standardDeviationMircosecondsPerInvocation="866"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="67" invocations="428" avgMicrosecondsPerInvocation="157" maxMicrosecondsPerInvocation="2163" standardDeviationMircosecondsPerInvocation="259"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="60" invocations="438" avgMicrosecondsPerInvocation="137" maxMicrosecondsPerInvocation="15630" standardDeviationMircosecondsPerInvocation="769"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="55" invocations="152" avgMicrosecondsPerInvocation="366" maxMicrosecondsPerInvocation="4573" standardDeviationMircosecondsPerInvocation="531"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="48" invocations="438" avgMicrosecondsPerInvocation="111" maxMicrosecondsPerInvocation="12475" standardDeviationMircosecondsPerInvocation="605"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="47" invocations="505" avgMicrosecondsPerInvocation="93" maxMicrosecondsPerInvocation="1049" standardDeviationMircosecondsPerInvocation="112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="43" invocations="438" avgMicrosecondsPerInvocation="100" maxMicrosecondsPerInvocation="11101" standardDeviationMircosecondsPerInvocation="711"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="39" invocations="31" avgMicrosecondsPerInvocation="1277" maxMicrosecondsPerInvocation="25708" standardDeviationMircosecondsPerInvocation="4578"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="37" invocations="1837" avgMicrosecondsPerInvocation="20" maxMicrosecondsPerInvocation="1269" standardDeviationMircosecondsPerInvocation="44"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="36" invocations="132" avgMicrosecondsPerInvocation="280" maxMicrosecondsPerInvocation="2406" standardDeviationMircosecondsPerInvocation="413"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1402470450328" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
