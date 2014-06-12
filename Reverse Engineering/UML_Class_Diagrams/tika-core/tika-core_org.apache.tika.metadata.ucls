@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="org.apache.tika.metadata.ClimateForcast" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/ClimateForcast.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="332" width="209" x="1394" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="org.apache.tika.metadata.IPTC" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/IPTC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="2078" width="463" x="378" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="org.apache.tika.metadata.PagedText" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/PagedText.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="135" x="203" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="org.apache.tika.metadata.DublinCore" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/DublinCore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="440" width="242" x="1241" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="org.apache.tika.metadata.XMPDM" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/XMPDM.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="854" width="320" x="881" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="org.apache.tika.metadata.PropertyTypeException" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/PropertyTypeException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="134" width="310" x="1523" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="org.apache.tika.metadata.XMPMM" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/XMPMM.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="224" x="1873" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="org.apache.tika.metadata.XMPDM.ChannelTypePropertyConverter" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/XMPDM.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="240" x="881" y="1226"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="org.apache.tika.metadata.HttpHeaders" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/HttpHeaders.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="205" x="1643" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="org.apache.tika.metadata.Office" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Office.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="422" width="322" x="2137" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="11" language="java" name="org.apache.tika.metadata.CreativeCommons" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/CreativeCommons.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="184" x="1888" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="12" language="java" name="org.apache.tika.metadata.Geographic" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Geographic.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="148" x="2112" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="org.apache.tika.metadata.Message" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Message.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="260" x="2300" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="14" language="java" name="org.apache.tika.metadata.TikaMimeKeys" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/TikaMimeKeys.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="179" x="2600" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="org.apache.tika.metadata.Metadata" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Metadata.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="890" width="289" x="2220" y="1226"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="org.apache.tika.metadata.XMP" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/XMP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="182" x="2499" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="org.apache.tika.metadata.XMPRights" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/XMPRights.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="253" x="2721" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="org.apache.tika.metadata.XMPIdq" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/XMPIdq.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="168" x="3014" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="org.apache.tika.metadata.Property" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Property.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="836" width="443" x="881" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="org.apache.tika.metadata.OfficeOpenXMLExtended" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/OfficeOpenXMLExtended.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="332" width="300" x="3222" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="21" language="java" name="org.apache.tika.metadata.TIFF" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/TIFF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="368" width="240" x="2819" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="22" language="java" name="org.apache.tika.metadata.TikaCoreProperties" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/TikaCoreProperties.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="584" width="349" x="3562" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="23" language="java" name="org.apache.tika.metadata.Property.PropertyType" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Property.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="180" x="771" y="3062"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="24" language="java" name="org.apache.tika.metadata.Photoshop" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Photoshop.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="350" width="260" x="3951" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="25" language="java" name="org.apache.tika.metadata.Property.ValueType" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/Property.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="350" width="195" x="991" y="3062"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="26" language="java" name="org.apache.tika.metadata.OfficeOpenXMLCore" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/OfficeOpenXMLCore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="196" x="4251" y="-892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="27" language="java" name="org.apache.tika.metadata.MSOffice" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/MSOffice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="638" width="322" x="3099" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="28" language="java" name="org.apache.tika.metadata.TikaMetadataKeys" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/metadata/TikaMetadataKeys.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="247" x="3461" y="2156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="29">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="30">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="31">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="32">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="33">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="34" name="primaryProperty"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="37" name="secondaryExtractProperties"/>      
+      <multiplicity id="38" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="39">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <nesting id="40">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="23"/>  
+  </nesting>  
+  <realization id="41">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <realization id="42">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="43">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="44" name="valueType"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="47" name="property"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="49">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="50">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="51" name="propertyType"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="53">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="54">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="25"/>  
+  </nesting>  
+  <association id="55">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="56" name="properties"/>      
+      <multiplicity id="57" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="58">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="59">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="60" name="DATE"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

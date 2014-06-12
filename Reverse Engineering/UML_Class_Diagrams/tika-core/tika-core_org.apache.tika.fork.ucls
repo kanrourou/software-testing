@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.apache.tika.fork.ClassLoaderProxy" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ClassLoaderProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="272" x="2037" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.apache.tika.fork.MemoryURLStreamHandlerFactory" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/MemoryURLStreamHandlerFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="319" x="57" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.apache.tika.fork.ContentHandlerResource" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ContentHandlerResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="170" width="334" x="482" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.apache.tika.fork.MemoryURLConnection" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/MemoryURLConnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="223" x="416" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.apache.tika.fork.ClassLoaderResource" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ClassLoaderResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="349" x="856" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="org.apache.tika.fork.ForkProxy" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ForkProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="272" x="2349" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="org.apache.tika.fork.ContentHandlerProxy" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ContentHandlerProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="602" width="284" x="2349" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.apache.tika.fork.ForkClient" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ForkClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="350" width="301" x="1619" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.apache.tika.fork.InputStreamProxy" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/InputStreamProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="272" x="2673" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.apache.tika.fork.MetadataContentHandler" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/MetadataContentHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="284" x="679" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.apache.tika.fork.ForkServer" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ForkServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="422" width="238" x="1003" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.apache.tika.fork.InputStreamResource" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/InputStreamResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="334" x="1245" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.apache.tika.fork.ForkObjectInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ForkObjectInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="298" x="1281" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="org.apache.tika.fork.ForkParser" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ForkParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="386" width="378" x="1619" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="org.apache.tika.fork.ForkResource" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/ForkResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="334" x="1051" y="834"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="16" language="java" name="org.apache.tika.fork.MemoryURLStreamRecord" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/MemoryURLStreamRecord.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="203" x="2985" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="org.apache.tika.fork.MemoryURLStreamHandler" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/fork/MemoryURLStreamHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="134" width="241" x="2985" y="-198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="18">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="23">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="24">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="25" name="records"/>      
+      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="28" name="resources"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="31" name="pool"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

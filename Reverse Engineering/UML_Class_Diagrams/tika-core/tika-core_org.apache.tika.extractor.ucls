@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" language="java" name="org.apache.tika.extractor.DocumentSelector" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/extractor/DocumentSelector.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="80" width="165" x="87" y="29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="org.apache.tika.extractor.ParserContainerExtractor.RecursiveParser" 
+    project="tika-core" file="/tika-core/src/main/java/org/apache/tika/extractor/ParserContainerExtractor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="387" x="536" y="275"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="org.apache.tika.extractor.EmbeddedResourceHandler" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedResourceHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="80" width="263" x="536" y="431"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="org.apache.tika.extractor.ContainerExtractor" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/extractor/ContainerExtractor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="450" x="944" y="431"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="org.apache.tika.extractor.ParsingEmbeddedDocumentExtractor" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="170" width="409" x="292" y="29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="org.apache.tika.extractor.EmbeddedDocumentExtractor" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentExtractor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="409" x="87" y="275"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="org.apache.tika.extractor.ParserContainerExtractor" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/extractor/ParserContainerExtractor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="206" width="450" x="944" y="29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="9" name="extractor"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="12" name="handler"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <nesting id="15">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <realization id="16">    
+    <bendpoint x="953" y="275"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.apache.tika.server.CSVMessageBodyWriter" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/CSVMessageBodyWriter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="134" width="620" x="-86" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.apache.tika.server.TikaVersion" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/TikaVersion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="128" x="2123" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.apache.tika.server.TikaResource" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/TikaResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="350" width="521" x="1115" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.apache.tika.server.MetadataResource" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/MetadataResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="501" x="574" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.apache.tika.server.TarWriter" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/TarWriter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="671" x="2291" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.apache.tika.server.ZipWriter" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/ZipWriter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="671" x="3002" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.apache.tika.server.TikaExceptionMapper" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/TikaExceptionMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="236" x="3713" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.apache.tika.server.RichTextContentHandler" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/RichTextContentHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="98" width="284" x="4356" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.apache.tika.server.MetadataEP" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/MetadataEP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="327" x="3989" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.apache.tika.server.UnpackerResource" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/UnpackerResource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="407" x="1676" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.apache.tika.server.TikaServerCli" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/TikaServerCli.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="159" x="4680" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.apache.tika.server.UnpackerResource.MyEmbeddedDocumentExtractor" 
+    project="tika-server" file="/tika-server/src/main/java/org/apache/tika/server/UnpackerResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="170" width="409" x="1676" y="444"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.apache.tika.server.JSONMessageBodyWriter" project="tika-server" 
+    file="/tika-server/src/main/java/org/apache/tika/server/JSONMessageBodyWriter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="134" width="620" x="4879" y="54"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="14">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

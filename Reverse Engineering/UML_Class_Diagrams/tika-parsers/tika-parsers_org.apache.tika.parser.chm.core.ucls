@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.apache.tika.parser.chm.core.ChmConstants" project="tika-parsers" 
+    file="/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="944" width="271" x="50" y="-209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="org.apache.tika.parser.chm.core.ChmCommons.LzxState" project="tika-parsers" 
+    file="/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmCommons.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="239" x="432" y="775"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" name="org.apache.tika.parser.chm.core.ChmExtractor" project="tika-parsers" 
+    file="/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmExtractor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="656" width="310" x="361" y="-209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="4" language="java" name="org.apache.tika.parser.chm.core.ChmCommons.IntelState" 
+    project="tika-parsers" file="/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmCommons.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="171" x="711" y="775"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="5" language="java" name="org.apache.tika.parser.chm.core.ChmCommons" project="tika-parsers" 
+    file="/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmCommons.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="404" width="382" x="711" y="-209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.apache.tika.parser.chm.core.ChmWrapper" project="tika-parsers" 
+    file="/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmWrapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="782" width="310" x="1133" y="-209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="7" language="java" name="org.apache.tika.parser.chm.core.ChmCommons.EntryType" project="tika-parsers" 
+    file="/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmCommons.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="191" x="922" y="775"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <nesting id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <nesting id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <nesting id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

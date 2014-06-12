@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.apache.tika.io.EndianUtils" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/EndianUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="584" width="200" x="68" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.apache.tika.io.TemporaryResources" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/TemporaryResources.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="224" width="224" x="1951" y="1830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.apache.tika.io.NullInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/NullInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="476" width="242" x="308" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.apache.tika.io.NullOutputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/NullOutputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="147" x="590" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.apache.tika.io.TaggedInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/TaggedInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="230" x="1951" y="744"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.apache.tika.io.CountingInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/CountingInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="260" width="216" x="2221" y="744"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.apache.tika.io.TaggedIOException" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/TaggedIOException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="246" x="787" y="744"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.apache.tika.io.LookaheadInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/LookaheadInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="332" width="244" x="1080" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.apache.tika.io.TailStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/TailStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="422" width="214" x="1364" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.apache.tika.io.IOExceptionWithCause" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/IOExceptionWithCause.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="253" x="787" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.apache.tika.io.CloseShieldInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/CloseShieldInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="233" x="2477" y="744"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.apache.tika.io.FilenameUtils" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/FilenameUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="287" x="1618" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.apache.tika.io.ClosedInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/ClosedInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="155" x="1945" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="org.apache.tika.io.EndianUtils.BufferUnderrunException" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/EndianUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="199" x="68" y="744"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="org.apache.tika.io.TikaInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/TikaInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="746" width="337" x="1951" y="1044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="org.apache.tika.io.ProxyInputStream" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/ProxyInputStream.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="296" width="230" x="2477" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="org.apache.tika.io.IOUtils" project="tika-core" 
+    file="/tika-core/src/main/java/org/apache/tika/io/IOUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="980" width="297" x="2140" y="-276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <association id="21">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="22" name="NULL_OUTPUT_STREAM"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="25" name="tmp"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
