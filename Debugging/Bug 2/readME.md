@@ -4,7 +4,7 @@ To guarantee that test cases will work properly, please put the JUnit file along
 
         ./tika-1.5/tika-parsers/src/test/java/org/apache/tika/parser/pdf
         
-Also, put the mp3 file along the following path:
+Also, put the pdf file along the following path:
 
         ./tika-1.5/tika-parsers/src/test/resources/test-documents
         
