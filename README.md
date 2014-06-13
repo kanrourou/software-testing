@@ -16,3 +16,9 @@ This testing project is based on Apache Tika 1.5. For details, please [check her
  * [ControlFlow](https://github.com/kanrourou/software-testing/tree/master/Reverse%20Engineering/Control_Flow_Graphs)
  * [UMLDiagram](https://github.com/kanrourou/software-testing/tree/master/Reverse%20Engineering/UML_Class_Diagrams)
 * Bugs Verification
+ * [Bug1](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%201)
+ * [Bug2](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%202)
+ * [Bug3](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%203)
+ * [Bug4](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%204)
+ * [Bug5](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%205)
+ * [Bug6](https://github.com/kanrourou/software-testing/tree/master/Debugging/Bug%206)
