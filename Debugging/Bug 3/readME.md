@@ -8,4 +8,4 @@ Also, put the docx file along the following path:
 
         ./tika-1.5/tika-parsers/src/test/resources/test-documents
         
-For the details of the bug, please [check here]https://issues.apache.org/jira/browse/TIKA-1167).
+For the details of the bug, please [check here](https://issues.apache.org/jira/browse/TIKA-1167).
